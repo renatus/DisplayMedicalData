@@ -585,7 +585,7 @@ for row in dfMedication.itertuples():
 # Remove free space between subplots
 plt.subplots_adjust(hspace=0)
 
-# Modify axes Tick Labels for subplots
+# Modify axes Tick Labels for all subplots, except latest one
 for ax in [axBTempDay, axMALongTrend, axHemoglobin, axErythrocytes, axHematocrit, axMCV, axMCH, axMCHC, axRDW]:
     # Remove X axis Tick Labels (are not visible anyway, if there are no free space between sublots)
     plt.setp(ax.get_xticklabels(), visible=False)
@@ -781,7 +781,7 @@ for row in dfMedication.itertuples():
 # Remove free space between subplots
 plt.subplots_adjust(hspace=0)
 
-# Modify axes Tick Labels for subplots
+# Modify axes Tick Labels for all subplots, except latest one
 for ax in [axBTempDay, axMALongTrend, axWBC, axNeutrophilicBandForms, axNeutrophilGranulocytes, axEosinophilGranulocytes, axBasophilGranulocytes, axLymphocytes]:
     # Remove X axis Tick Labels (are not visible anyway, if there are no free space between sublots)
     plt.setp(ax.get_xticklabels(), visible=False)

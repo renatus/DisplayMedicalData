@@ -18,6 +18,8 @@
 {"value": "2018-02-15", "text": "Primolut-Nor 5 mg x 1 daily", "comment": "Of PROGESTINS family, norethisterone acetate (abbreviated as NETA), also known as norethindrone acetate and sold under the brand name Primolut-Nor"},
 {"value": "2018-02-16", "text": "Primolut-Nor 10 mg x 1 daily"},
 
-{"value": "2018-08-20", "text": "Buspirone 5 mg x 2 daily START", "comment": "Anxiolytic drug, probably effective in patients with estrogen-driven recurrent fever"}
+{"value": "2018-08-20", "text": "Buspirone 5 mg x 2 daily START", "comment": "Anxiolytic drug, probably effective in patients with estrogen-driven recurrent fever"},
+{"value": "2018-09-16", "text": "Buspirone 5 mg x 2 daily STOP", "comment": "Anxiolytic drug, probably effective in patients with estrogen-driven recurrent fever"},
+{"value": "2018-09-17", "text": "Buspirone 10 mg x 2 daily START", "comment": "Anxiolytic drug, probably effective in patients with estrogen-driven recurrent fever"}
 
 ]
