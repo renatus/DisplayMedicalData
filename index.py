@@ -16,16 +16,6 @@ sys.path.append("windows")
 
 
 
-# Function to calculate Moving Average
-# "values" argument takes List or Numpy Array of values to calculate Moving Average
-# "window" argument takes Integer to set number of values to calculate average from
-def movingaverage (values, window):
-    weights = np.repeat(1.0, window)/window
-    sma = np.convolve(values, weights, 'valid')
-    return sma
-
-
-
 # Load JSON file and convert it to Pandas DataFrame
 # If you've an error in JSON syntax, like trailing comma, you'll see an error:
 # ValueError: Unexpected character found when decoding array value (1)
@@ -90,17 +80,13 @@ temperatureValues = np.asarray(temperatureValuesOccurrenceDf.index)
 # Array of integers like 93
 temperatureValuesOccurrence = np.asarray(temperatureValuesOccurrenceDf.dateTaken)
 
-# Get Moving Averages
-# Get list of all temperature values
-temperatureValuesList = dfBTemp['bdTemperature'].astype(float).values.tolist()
-# If you'll pass values of a wrong type (say, text instead of floats), you'll get an error:
-# Cannot cast array data from dtype('float64') to dtype('<U32') according to the rule 'safe'
+# Get Temperature Moving Averages with Pandas
 # Moving Average for 5 measurements
-temperatureMA5 = movingaverage(temperatureValuesList, 5)
+temperatureMA5 = dfBTemp['bdTemperature'].rolling(5).mean()
 # Moving Average for 15 measurements
-temperatureMA15 = movingaverage(temperatureValuesList, 15)
+temperatureMA15 = dfBTemp['bdTemperature'].rolling(15).mean()
 # Moving Average for 100 measurements
-temperatureMA100 = movingaverage(temperatureValuesList, 100)
+temperatureMA100 = dfBTemp['bdTemperature'].rolling(100).mean()
 # Convert Moving Average Lists to Numpy Arrays, since we need them for fillings with WHERE statement
 temperatureMA5 = np.asarray(temperatureMA5)
 temperatureMA15 = np.asarray(temperatureMA15)
@@ -176,14 +162,31 @@ for row in bloodPressureByDayMax.itertuples():
         bloodPressureByDayMax = bloodPressureByDayMax.drop([row.Index])
 
 # Get Moving Averages
-# Get list of all Systolic Pressure values
-pressureSystolicValuesList = dfBloodPressure['bloodPressureSystolic'].astype(float).values.tolist()
+
+# Systolic Pressure Moving Average for 30 measurements
+pressureSystolicMA30 = dfBloodPressure['bloodPressureSystolic'].rolling(30).mean()
+# Convert Moving Average Lists to Numpy Arrays, since we need them for fillings with WHERE statement
+pressureSystolicMA30 = np.asarray(pressureSystolicMA30)
+
+# Get list of all Diastolic Pressure values
+pressureDiastolicValuesList = dfBloodPressure['bloodPressureDiastolic'].astype(float).values.tolist()
 # If you'll pass values of a wrong type (say, text instead of floats), you'll get an error:
 # Cannot cast array data from dtype('float64') to dtype('<U32') according to the rule 'safe'
 # Moving Average for 30 measurements
-pressureSystolicMA30 = movingaverage(pressureSystolicValuesList, 30)
+#pressureDiastolicMA30 = movingaverage(pressureDiastolicValuesList, 30)
+
+#pressureDiastolicMA30 = dfBloodPressure['bloodPressureSystolic'].rolling(30).mean()
+
+pressureDiastolicMA30 = dfBloodPressure['bloodPressureSystolic'].rolling('13d').mean()
+
+
 # Convert Moving Average Lists to Numpy Arrays, since we need them for fillings with WHERE statement
-pressureSystolicMA30 = np.asarray(pressureSystolicMA30)
+pressureDiastolicMA30 = np.asarray(pressureDiastolicMA30)
+
+# Pulse Moving Average for 30 measurements
+pulseMA30 = dfBloodPressure['pulseBPM'].rolling(30).mean()
+# Convert Moving Average Lists to Numpy Arrays, since we need them for fillings with WHERE statement
+pulseMA30 = np.asarray(pulseMA30)
 
 
 
@@ -233,11 +236,6 @@ tempValuesThroughCycle = dfCyclePeriods['tempValuesThroughCycle'].iloc[0]
 
 # Draw WINDOW
 # Don't forget to append sys.path with "windows" package path - sys.path.append("windows")
-from windows import window_temp_frequency as windTempFreq
-windTempFreq.draw(plt, temperatureValues, temperatureValuesOccurrence, temperatureMeasurementsByHourIndex, temperatureMeasurementsByHourValues, temperatureByHourIndex, temperatureByHourValues)
-
-# Draw WINDOW
-# Don't forget to append sys.path with "windows" package path - sys.path.append("windows")
 from windows import window_temp_line_plots as windTempLPlots
 windTempLPlots.draw(plt, dfBTemp, temperatureByDayMean, temperatureByDayMax, temperatureByDayMin, temperatureMA5, temperatureMA15, temperatureMA100, datetimesNparr, dfMedication, dfCycle)
 
@@ -260,8 +258,20 @@ windTempLPlots.draw(plt, dfBTemp, temperatureByDayMean, temperatureByDayMax, tem
 
 # Draw WINDOW
 # Don't forget to append sys.path with "windows" package path - sys.path.append("windows")
-from windows import window_blood_corellation_matrix as windTempLPlots
-windTempLPlots.draw(plt, pd, dfBlood)
+from windows import window_pressure_line_plots_2 as windTempLPlots2
+windTempLPlots2.draw(plt, dfBTemp, temperatureByDayMean, temperatureByDayMax, temperatureByDayMin, temperatureMA100,
+         bloodPressureByDayMean, bloodPressureByDayMax, bloodPressureByDayMin, pressureSystolicMA30, pressureDiastolicMA30, pulseMA30,
+         dfMedication, dfCycle, dfBloodPressure)
+
+# # Draw WINDOW
+# # Don't forget to append sys.path with "windows" package path - sys.path.append("windows")
+# from windows import window_temp_frequency as windTempFreq
+# windTempFreq.draw(plt, temperatureValues, temperatureValuesOccurrence, temperatureMeasurementsByHourIndex, temperatureMeasurementsByHourValues, temperatureByHourIndex, temperatureByHourValues)
+
+# # Draw WINDOW
+# # Don't forget to append sys.path with "windows" package path - sys.path.append("windows")
+# from windows import window_blood_corellation_matrix as windTempLPlots
+# windTempLPlots.draw(plt, pd, dfBlood)
 
 
 
