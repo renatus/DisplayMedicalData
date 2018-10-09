@@ -8,6 +8,7 @@
 {"value": "2017-09-05", "text": "Levothyroxine 100 / 125 mcg"},
 {"value": "2017-12-05", "text": "Levothyroxine 100 mcg"},
 {"value": "2018-05-06", "text": "Levothyroxine 75 / 100 mcg"},
+{"value": "2018-10-03", "text": "Levothyroxine 100 mcg"},
 
 {"value": "2017-11-12", "text": "Ibuprofen 400 mg x 3 daily START", "comment": "Nonsteroidal anti-inflammatory drug (NSAID), used for treating pain, fever, and inflammation"},
 {"value": "2017-11-22", "text": "Ibuprofen 400 mg x 3 daily STOP"},
@@ -20,6 +21,8 @@
 
 {"value": "2018-08-20", "text": "Buspirone 5 mg x 2 daily START", "comment": "Anxiolytic drug, probably effective in patients with estrogen-driven recurrent fever"},
 {"value": "2018-09-16", "text": "Buspirone 5 mg x 2 daily STOP", "comment": "Anxiolytic drug, probably effective in patients with estrogen-driven recurrent fever"},
-{"value": "2018-09-17", "text": "Buspirone 10 mg x 2 daily START", "comment": "Anxiolytic drug, probably effective in patients with estrogen-driven recurrent fever"}
+{"value": "2018-09-17", "text": "Buspirone 10 mg x 2 daily START", "comment": "Anxiolytic drug, probably effective in patients with estrogen-driven recurrent fever"},
+{"value": "2018-09-20", "text": "Buspirone 10 mg x 2 daily STOP", "comment": "Anxiolytic drug, probably effective in patients with estrogen-driven recurrent fever"}
+
 
 ]
