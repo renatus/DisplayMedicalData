@@ -1601,7 +1601,20 @@
 {"dateTimeTaken": "2018-10-28T22:22",
 "bt-pulse_BPM": 66,
 "bt-blood_pressure_max": 99,
-"bt-blood_pressure_min": 63}
+"bt-blood_pressure_min": 63},
+
+{"dateTimeTaken": "2018-10-29T10:27",
+"bt-pulse_BPM": 57,
+"bt-blood_pressure_max": 105,
+"bt-blood_pressure_min": 67},
+{"dateTimeTaken": "2018-10-29T16:21",
+"bt-pulse_BPM": 69,
+"bt-blood_pressure_max": 97,
+"bt-blood_pressure_min": 62},
+{"dateTimeTaken": "2018-10-29T22:31",
+"bt-pulse_BPM": 76,
+"bt-blood_pressure_max": 101,
+"bt-blood_pressure_min": 68}
 
 
 
