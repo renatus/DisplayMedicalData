@@ -188,6 +188,7 @@ def draw(plt, dfBTemp, temperatureByDayMean, temperatureByDayMax, temperatureByD
         # Second argument sets Y value of our inscription
         # Third argument sets text of inscription
         # rotation=90 will make inscription vertical
+        # alpha=0.4 will make inscription semitransparent
         axBTempDay.text(cycleStartDatetime, 37.8, "Cycle start", rotation=90, verticalalignment='center', color="r",
                         alpha=0.4)
 
@@ -211,13 +212,14 @@ def draw(plt, dfBTemp, temperatureByDayMean, temperatureByDayMax, temperatureByD
         # Second argument sets Y value of our inscription
         # Third argument sets text of inscription
         # rotation=90 will make inscription vertical
+        # alpha=0.4 will make inscription semitransparent
         axBTempDay.text(medicationDatetime, 37.3, row.text, fontsize='smaller', rotation=90, verticalalignment='center',
                         color="black", alpha=0.4)
 
     # Remove free space between subplots
     plt.subplots_adjust(hspace=0)
 
-    # Modify axes Tick Labels for all subplots, except latest one
+    # Modify axes Tick Labels for all subplots, except one at the bottom
     for ax in [axBTempDay, axMALongTrend, axHemoglobin, axErythrocytes, axHematocrit, axMCV, axMCH, axMCHC, axRDW]:
         # Remove X axis Tick Labels (are not visible anyway, if there are no free space between sublots)
         plt.setp(ax.get_xticklabels(), visible=False)

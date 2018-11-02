@@ -7,9 +7,9 @@ import pandas as pd
 import matplotlib.pyplot as plt
 # For plotting functionality like advanced fills with "where" argument
 import numpy as np
-# We need Seaborn for beautiful corellation matrixes out of the box
-# SYS module provides access to some variables used or maintained by the interpreter and to functions that interact strongly with the interpreter.
+# SYS module provides access to some variables used or maintained by the interpreter and to functions that interact closely with the interpreter.
 import sys
+# We need Seaborn for beautiful corellation matrixes out of the box
 
 # Add path to custom package with modules to draw individual Matplotlib windows
 sys.path.append("windows")
@@ -27,8 +27,10 @@ dfCycle = pd.read_json('menstrual_cycle_start.json')
 dfMedication = pd.read_json('medication_reports.json')
 # Blood test results
 dfBlood = pd.read_json('blood_test.json')
-# Blood pressure results
+# Blood pressure measurements with date and time
 dfBloodPressure = pd.read_json('blood_pressure.json')
+# Misc data about patient's body condition
+dfWellbeing = pd.read_json('wellbeing.json')
 
 # Rename columns in DataFrame
 dfBTemp = dfBTemp.rename({'bd-temperature':'bdTemperature', 'dateTaken':'dateTaken'}, axis='columns')
@@ -72,13 +74,22 @@ dfBloodPressure.dateTaken = pd.to_datetime(dfBloodPressure.dateTaken)
 # We need "drop=False" argument to save original 'dateTaken' column
 dfBloodPressure.set_index('dateTaken', drop=False, inplace=True)
 
+# Misc data about patient's body Dataframe
+# Rename columns in DataFrame
+dfWellbeing = dfWellbeing.rename({'dateTimeTaken':'dateTaken'}, axis='columns')
+# Convert objects to datetime
+dfWellbeing.dateTaken = pd.to_datetime(dfWellbeing.dateTaken)
+# Set Dataframe's index
+# We need "drop=False" argument to save original 'dateTaken' column
+dfWellbeing.set_index('dateTaken', drop=False, inplace=True)
+
 # Count number of measurements with given temperature value (like 37.1 - 120, 37.2 - 93)
 #https://stackoverflow.com/questions/10373660/converting-a-pandas-groupby-object-to-dataframe
-temperatureValuesOccurrenceDf = dfBTemp.groupby(['bdTemperature']).count()
+dfTemperatureValuesOccurrence = dfBTemp.groupby(['bdTemperature']).count()
 # Array of floats like 37.2
-temperatureValues = np.asarray(temperatureValuesOccurrenceDf.index)
+temperatureValues = np.asarray(dfTemperatureValuesOccurrence.index)
 # Array of integers like 93
-temperatureValuesOccurrence = np.asarray(temperatureValuesOccurrenceDf.dateTaken)
+temperatureValuesOccurrence = np.asarray(dfTemperatureValuesOccurrence.dateTaken)
 
 # Get Temperature Moving Averages with Pandas
 # Moving Average for 5 measurements
@@ -161,34 +172,31 @@ for row in bloodPressureByDayMax.itertuples():
         # row.Index will give you current row index, datetime object in this case
         bloodPressureByDayMax = bloodPressureByDayMax.drop([row.Index])
 
-# Get Moving Averages
+# Get Moving Averages (working with Pandas DataFrames and with Pandas-provided tools)
 
 # Systolic Pressure Moving Average for 30 measurements
 pressureSystolicMA30 = dfBloodPressure['bloodPressureSystolic'].rolling(30).mean()
+# Systolic Pressure Moving Average for 13 days
+pressureSystolicMA13d = dfBloodPressure['bloodPressureSystolic'].rolling('13d').mean()
 # Convert Moving Average Lists to Numpy Arrays, since we need them for fillings with WHERE statement
 pressureSystolicMA30 = np.asarray(pressureSystolicMA30)
+pressureSystolicMA13d = np.asarray(pressureSystolicMA13d)
 
-# Get list of all Diastolic Pressure values
-pressureDiastolicValuesList = dfBloodPressure['bloodPressureDiastolic'].astype(float).values.tolist()
-# If you'll pass values of a wrong type (say, text instead of floats), you'll get an error:
-# Cannot cast array data from dtype('float64') to dtype('<U32') according to the rule 'safe'
-# Moving Average for 30 measurements
-#pressureDiastolicMA30 = movingaverage(pressureDiastolicValuesList, 30)
-
-#pressureDiastolicMA30 = dfBloodPressure['bloodPressureSystolic'].rolling(30).mean()
-
-pressureDiastolicMA30 = dfBloodPressure['bloodPressureSystolic'].rolling('13d').mean()
-
-
+# Diastolic Pressure Moving Average for 30 measurements
+pressureDiastolicMA30 = dfBloodPressure['bloodPressureDiastolic'].rolling(30).mean()
+# Diastolic Pressure Moving Average for 13 days
+pressureDiastolicMA13d = dfBloodPressure['bloodPressureDiastolic'].rolling('13d').mean()
 # Convert Moving Average Lists to Numpy Arrays, since we need them for fillings with WHERE statement
 pressureDiastolicMA30 = np.asarray(pressureDiastolicMA30)
+pressureDiastolicMA13d= np.asarray(pressureDiastolicMA13d)
 
 # Pulse Moving Average for 30 measurements
 pulseMA30 = dfBloodPressure['pulseBPM'].rolling(30).mean()
+# Pulse Moving Average for 13 days
+pulseMA13d = dfBloodPressure['pulseBPM'].rolling(13).mean()
 # Convert Moving Average Lists to Numpy Arrays, since we need them for fillings with WHERE statement
 pulseMA30 = np.asarray(pulseMA30)
-
-
+pulseMA13d = np.asarray(pulseMA13d)
 
 
 
@@ -235,41 +243,42 @@ tempValuesThroughCycle = dfCyclePeriods['tempValuesThroughCycle'].iloc[0]
 
 
 # Draw WINDOW
-# Don't forget to append sys.path with "windows" package path - sys.path.append("windows")
+# Don't forget to append sys.path with "windows" custom package path - sys.path.append("windows")
 from windows import window_temp_line_plots as windTempLPlots
 windTempLPlots.draw(plt, dfBTemp, temperatureByDayMean, temperatureByDayMax, temperatureByDayMin, temperatureMA5, temperatureMA15, temperatureMA100, datetimesNparr, dfMedication, dfCycle)
 
 # Draw WINDOW
-# Don't forget to append sys.path with "windows" package path - sys.path.append("windows")
+# Don't forget to append sys.path with "windows" custom package path - sys.path.append("windows")
 from windows import window_erythrocytes_line_plots as windTempLPlots
 windTempLPlots.draw(plt, dfBTemp, temperatureByDayMean, temperatureByDayMax, temperatureByDayMin, temperatureMA100, dfMedication, dfCycle, dfBlood)
 
 # Draw WINDOW
-# Don't forget to append sys.path with "windows" package path - sys.path.append("windows")
+# Don't forget to append sys.path with "windows" custom package path - sys.path.append("windows")
 from windows import window_leukocytes_line_plots as windTempLPlots
 windTempLPlots.draw(plt, dfBTemp, temperatureByDayMean, temperatureByDayMax, temperatureByDayMin, temperatureMA100, dfMedication, dfCycle, dfBlood)
 
 # Draw WINDOW
-# Don't forget to append sys.path with "windows" package path - sys.path.append("windows")
+# Don't forget to append sys.path with "windows" custom package path - sys.path.append("windows")
 from windows import window_pressure_line_plots as windTempLPlots
 windTempLPlots.draw(plt, dfBTemp, temperatureByDayMean, temperatureByDayMax, temperatureByDayMin, temperatureMA100,
          bloodPressureByDayMean, bloodPressureByDayMax, bloodPressureByDayMin, pressureSystolicMA30,
          dfMedication, dfCycle, dfBloodPressure)
 
 # Draw WINDOW
-# Don't forget to append sys.path with "windows" package path - sys.path.append("windows")
+# Don't forget to append sys.path with "windows" custom package path - sys.path.append("windows")
 from windows import window_pressure_line_plots_2 as windTempLPlots2
 windTempLPlots2.draw(plt, dfBTemp, temperatureByDayMean, temperatureByDayMax, temperatureByDayMin, temperatureMA100,
-         bloodPressureByDayMean, bloodPressureByDayMax, bloodPressureByDayMin, pressureSystolicMA30, pressureDiastolicMA30, pulseMA30,
+         bloodPressureByDayMean, bloodPressureByDayMax, bloodPressureByDayMin,
+         pressureSystolicMA30, pressureSystolicMA13d, pressureDiastolicMA30, pressureDiastolicMA13d, pulseMA30, pulseMA13d,
          dfMedication, dfCycle, dfBloodPressure)
 
 # # Draw WINDOW
-# # Don't forget to append sys.path with "windows" package path - sys.path.append("windows")
+# # Don't forget to append sys.path with "windows" custom package path - sys.path.append("windows")
 # from windows import window_temp_frequency as windTempFreq
 # windTempFreq.draw(plt, temperatureValues, temperatureValuesOccurrence, temperatureMeasurementsByHourIndex, temperatureMeasurementsByHourValues, temperatureByHourIndex, temperatureByHourValues)
 
 # # Draw WINDOW
-# # Don't forget to append sys.path with "windows" package path - sys.path.append("windows")
+# # Don't forget to append sys.path with "windows" custom package path - sys.path.append("windows")
 # from windows import window_blood_corellation_matrix as windTempLPlots
 # windTempLPlots.draw(plt, pd, dfBlood)
 
