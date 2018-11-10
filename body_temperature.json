@@ -1461,7 +1461,10 @@
 {"dateTaken": "2018-11-07T22:40", "bd-temperature": 37.8},
 {"dateTaken": "2018-11-08T09:30", "bd-temperature": 37.3},
 {"dateTaken": "2018-11-08T16:32", "bd-temperature": 37.5},
-{"dateTaken": "2018-11-08T22:39", "bd-temperature": 38.0}
+{"dateTaken": "2018-11-08T22:39", "bd-temperature": 38.0},
+{"dateTaken": "2018-11-09T09:32", "bd-temperature": 37.2},
+{"dateTaken": "2018-11-09T16:41", "bd-temperature": 37.6},
+{"dateTaken": "2018-11-09T22:36", "bd-temperature": 38.0}
 
 
 
