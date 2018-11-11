@@ -427,7 +427,7 @@
 "bt-meanCellHemoglobin-MCH": 28.1,
 "bt-meanCellHemoglobinConcentration-MCHC": 31.1,
 "bt-redCellDistributionWidth-RDW": 11.6,
-"bt-erythrocyteSedimentationRate-ESR": 89,
+"bt-erythrocyteSedimentationRate-ESR": 8,
 "COMMENT": "Coagulation",
 "bt-thrombocyteCount-Plt": 234,
 "bt-meanPlateletVolume-MPV": 7.28,
