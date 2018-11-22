@@ -76,12 +76,12 @@ dfBloodPressure.set_index('dateTaken', drop=False, inplace=True)
 
 # Misc data about patient's body Dataframe
 # Rename columns in DataFrame
-dfWellbeing = dfWellbeing.rename({'dateTimeTaken':'dateTaken'}, axis='columns')
+dfWellbeing = dfWellbeing.rename({'dateTimeTaken':'dateTimeTaken'}, axis='columns')
 # Convert objects to datetime
-dfWellbeing.dateTaken = pd.to_datetime(dfWellbeing.dateTaken)
+dfWellbeing.dateTimeTaken = pd.to_datetime(dfWellbeing.dateTimeTaken)
 # Set Dataframe's index
 # We need "drop=False" argument to save original 'dateTaken' column
-dfWellbeing.set_index('dateTaken', drop=False, inplace=True)
+dfWellbeing.set_index('dateTimeTaken', drop=False, inplace=True)
 
 # Count number of measurements with given temperature value (like 37.1 - 120, 37.2 - 93)
 #https://stackoverflow.com/questions/10373660/converting-a-pandas-groupby-object-to-dataframe
@@ -271,6 +271,12 @@ windTempLPlots2.draw(plt, dfBTemp, temperatureByDayMean, temperatureByDayMax, te
          bloodPressureByDayMean, bloodPressureByDayMax, bloodPressureByDayMin,
          pressureSystolicMA30, pressureSystolicMA13d, pressureDiastolicMA30, pressureDiastolicMA13d, pulseMA30, pulseMA13d,
          dfMedication, dfCycle, dfBloodPressure)
+
+# Draw WINDOW
+# Don't forget to append sys.path with "windows" custom package path - sys.path.append("windows")
+from windows import window_wellbeing_line_plots as windWellbeingLPlots
+windWellbeingLPlots.draw(np, plt, dfBTemp, temperatureByDayMean, temperatureByDayMax, temperatureByDayMin, temperatureMA5, temperatureMA15, temperatureMA100, datetimesNparr, dfMedication, dfCycle, dfWellbeing)
+
 
 # # Draw WINDOW
 # # Don't forget to append sys.path with "windows" custom package path - sys.path.append("windows")
