@@ -1533,7 +1533,13 @@
 {"dateTaken": "2018-12-01T22:45", "bd-temperature": 37.6},
 {"dateTaken": "2018-12-02T09:31", "bd-temperature": 37.2},
 {"dateTaken": "2018-12-02T16:39", "bd-temperature": 37.4},
-{"dateTaken": "2018-12-02T22:42", "bd-temperature": 37.7}
+{"dateTaken": "2018-12-02T22:42", "bd-temperature": 37.7},
+{"dateTaken": "2018-12-03T09:30", "bd-temperature": 37.3},
+{"dateTaken": "2018-12-03T16:36", "bd-temperature": 37.6},
+{"dateTaken": "2018-12-03T22:38", "bd-temperature": 37.9},
+{"dateTaken": "2018-12-04T09:33", "bd-temperature": 37.2},
+{"dateTaken": "2018-12-04T16:58", "bd-temperature": 37.3},
+{"dateTaken": "2018-12-04T22:44", "bd-temperature": 37.8}
 
 
 
