@@ -340,6 +340,12 @@
 "perceivedWellBeing": 2,
 "headacheIntensity": 0,
 "vaginalBleeding": 0,
+"patientComment": "В середине дня самочувствие было как при более высокой температуре."},
+
+{"dateTimeTaken": "2018-12-05",
+"perceivedWellBeing": 1.5,
+"headacheIntensity": 2,
+"vaginalBleeding": 0,
 "patientComment": ""}
 
 
