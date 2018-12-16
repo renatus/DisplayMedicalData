@@ -382,6 +382,30 @@
 "perceivedWellBeing": 1.5,
 "headacheIntensity": 3.5,
 "vaginalBleeding": 0,
+"patientComment": ""},
+
+{"dateTimeTaken": "2018-12-12",
+"perceivedWellBeing": 2,
+"headacheIntensity": 2,
+"vaginalBleeding": 0,
+"patientComment": ""},
+
+{"dateTimeTaken": "2018-12-13",
+"perceivedWellBeing": 2.5,
+"headacheIntensity": 2,
+"vaginalBleeding": 30,
+"patientComment": ""},
+
+{"dateTimeTaken": "2018-12-14",
+"perceivedWellBeing": 2.5,
+"headacheIntensity": 4,
+"vaginalBleeding": 24,
+"patientComment": ""},
+
+{"dateTimeTaken": "2018-12-15",
+"perceivedWellBeing": 2.5,
+"headacheIntensity": 3.5,
+"vaginalBleeding": 6,
 "patientComment": ""}
 
 
