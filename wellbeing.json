@@ -406,6 +406,12 @@
 "perceivedWellBeing": 2.5,
 "headacheIntensity": 3.5,
 "vaginalBleeding": 6,
+"patientComment": ""},
+
+{"dateTimeTaken": "2018-12-16",
+"perceivedWellBeing": 3,
+"headacheIntensity": 3,
+"vaginalBleeding": 3.5,
 "patientComment": ""}
 
 
