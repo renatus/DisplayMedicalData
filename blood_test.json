@@ -460,7 +460,29 @@
 "bt-eosinophilGranulocytes": 2,
 "bt-basophilGranulocytes": 0,
 "bt-lymphocytes": 35,
-"bt-monocytes": 12}
+"bt-monocytes": 12},
+
+{"dateTaken": "2019-01-15",
+"COMMENT": "Red blood cells",
+"bt-erythrocytes-RBC": 4.1,
+"bt-hemoglobin-Hb": 115,
+"bt-hematocrit-Hct": 34.4,
+"bt-meanErythrocyteVolume-MCV": 83.9,
+"bt-meanCellHemoglobin-MCH": 28,
+"bt-meanCellHemoglobinConcentration-MCHC": 33.4,
+"bt-redCellDistributionWidth-RDW": 13.9,
+"bt-erythrocyteSedimentationRate-ESR": 4,
+"COMMENT": "Coagulation",
+"bt-thrombocyteCount-Plt": 211,
+"bt-meanPlateletVolume-MPV": 9.7,
+"COMMENT": "White blood cells",
+"bt-whiteBloodCells-WBC": 4.4,
+"bt-neutrophilicBandForms": 3,
+"bt-neutrophilGranulocytes-PMNs": 49,
+"bt-eosinophilGranulocytes": 3,
+"bt-basophilGranulocytes": 0,
+"bt-lymphocytes": 37,
+"bt-monocytes": 8}
 
 
 

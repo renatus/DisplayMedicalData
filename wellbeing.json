@@ -550,7 +550,86 @@
 "perceivedWellBeing": 1,
 "headacheIntensity": 2,
 "vaginalBleeding": 0,
+"patientComment": ""},
+
+{"dateTimeTaken": "2019-01-09",
+"perceivedWellBeing": 1.5,
+"headacheIntensity": 3,
+"vaginalBleeding": 0,
+"patientComment": ""},
+
+{"dateTimeTaken": "2019-01-10",
+"perceivedWellBeing": 2,
+"headacheIntensity": 2,
+"vaginalBleeding": 0,
+"patientComment": ""},
+
+ {"dateTimeTaken": "2019-01-11",
+"perceivedWellBeing": 2,
+"headacheIntensity": 4,
+"vaginalBleeding": 0,
+"patientComment": ""},
+
+{"dateTimeTaken": "2019-01-12",
+"perceivedWellBeing": 2.5,
+"headacheIntensity": 2,
+"vaginalBleeding": 33.5,
+"patientComment": ""},
+
+{"dateTimeTaken": "2019-01-13",
+"perceivedWellBeing": 2.5,
+"headacheIntensity": 3,
+"vaginalBleeding": 32,
+"patientComment": ""},
+
+{"dateTimeTaken": "2019-01-14",
+"perceivedWellBeing": 2,
+"headacheIntensity": 4,
+"vaginalBleeding": 9,
+"patientComment": ""},
+
+{"dateTimeTaken": "2019-01-15",
+"perceivedWellBeing": 3,
+"headacheIntensity": 2,
+"vaginalBleeding": 7,
+"patientComment": ""},
+
+{"dateTimeTaken": "2019-01-16",
+"perceivedWellBeing": 3,
+"headacheIntensity": 2.5,
+"vaginalBleeding": 0,
+"patientComment": ""},
+
+{"dateTimeTaken": "2019-01-17",
+"perceivedWellBeing": 3,
+"headacheIntensity": 3,
+"vaginalBleeding": 0,
+"patientComment": ""},
+
+{"dateTimeTaken": "2019-01-18",
+"perceivedWellBeing": 3,
+"headacheIntensity": 2.5,
+"vaginalBleeding": 0,
+"patientComment": ""},
+
+{"dateTimeTaken": "2019-01-19",
+"perceivedWellBeing": 3,
+"headacheIntensity": 3,
+"vaginalBleeding": 0,
+"patientComment": ""},
+
+{"dateTimeTaken": "2019-01-20",
+"perceivedWellBeing": 3.5,
+"headacheIntensity": 2,
+"vaginalBleeding": 0,
+"patientComment": ""},
+
+{"dateTimeTaken": "2019-01-21",
+"perceivedWellBeing": 3,
+"headacheIntensity": 3,
+"vaginalBleeding": 0,
 "patientComment": ""}
+
 
 
 
