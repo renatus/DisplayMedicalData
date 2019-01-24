@@ -2702,7 +2702,33 @@
 {"dateTimeTaken": "2019-01-21T22:26",
 "bt-pulse_BPM": 75,
 "bt-blood_pressure_max": 97,
-"bt-blood_pressure_min": 60}
+"bt-blood_pressure_min": 60},
+
+{"dateTimeTaken": "2019-01-22T10:20",
+"bt-pulse_BPM": 76,
+"bt-blood_pressure_max": 96,
+"bt-blood_pressure_min": 65},
+{"dateTimeTaken": "2019-01-22T16:17",
+"bt-pulse_BPM": 59,
+"bt-blood_pressure_max": 96,
+"bt-blood_pressure_min": 64},
+{"dateTimeTaken": "2019-01-22T22:25",
+"bt-pulse_BPM": 76,
+"bt-blood_pressure_max": 101,
+"bt-blood_pressure_min": 66},
+
+{"dateTimeTaken": "2019-01-23T10:10",
+"bt-pulse_BPM": 66,
+"bt-blood_pressure_max": 100,
+"bt-blood_pressure_min": 62},
+{"dateTimeTaken": "2019-01-23T16:15",
+"bt-pulse_BPM": 69,
+"bt-blood_pressure_max": 97,
+"bt-blood_pressure_min": 61},
+{"dateTimeTaken": "2019-01-23T22:08",
+"bt-pulse_BPM": 69,
+"bt-blood_pressure_max": 99,
+"bt-blood_pressure_min": 62}
 
 
 
