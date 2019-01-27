@@ -1,7 +1,7 @@
 # Function to draw Matplotlib window
 def draw(plt, dfBTemp, temperatureByDayMean, temperatureByDayMax, temperatureByDayMin, temperatureMA100,
          bloodPressureByDayMean, bloodPressureByDayMax, bloodPressureByDayMin, pressureSystolicMA30,
-         dfMedication, dfCycle, dfBloodPressure):
+         dfMedicationStartStop, dfCycle, dfBloodPressure):
     # Open window with a given name
     plt.figure("Blood Pressure Line Plots")
     # Create subplots and put them to appropriate places of the program-opened window
@@ -127,7 +127,7 @@ def draw(plt, dfBTemp, temperatureByDayMean, temperatureByDayMax, temperatureByD
                         alpha=0.4)
 
     # Iterate through Medicament intake dataframe entries
-    for row in dfMedication.itertuples():
+    for row in dfMedicationStartStop.itertuples():
         # Medicament intake datetime
         medicationDatetime = row.value
         # Add vertical line to subplot

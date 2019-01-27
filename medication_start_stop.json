@@ -1,0 +1,28 @@
+[
+
+{"value": "2017-04-11", "text": "Total Thyroidectomy"},
+
+{"value": "2017-06-21", "text": "Radioiodine I131 6GBq"},
+
+{"value": "2017-08-01", "text": "Levothyroxine 100 mcg", "comment": "Manufactured form of the thyroid hormone, THYROXINE (T4)"},
+{"value": "2017-09-05", "text": "Levothyroxine 100 / 125 mcg"},
+{"value": "2017-12-05", "text": "Levothyroxine 100 mcg"},
+{"value": "2018-05-06", "text": "Levothyroxine 75 / 100 mcg"},
+{"value": "2018-10-03", "text": "Levothyroxine 100 mcg"},
+
+{"value": "2017-11-12", "text": "Ibuprofen 400 mg x 3 daily START", "comment": "Nonsteroidal anti-inflammatory drug (NSAID), used for treating pain, fever, and inflammation"},
+{"value": "2017-11-22", "text": "Ibuprofen 400 mg x 3 daily STOP"},
+
+{"value": "2018-03-17", "text": "Maltofer 100 mg x 1 daily START", "comment": "IRON supplement, 357mg of iron polymaltose = 100mg of elemental iron"},
+{"value": "2018-08-19", "text": "Maltofer 100 mg x 1 daily STOP", "comment": "IRON supplement, 357mg of iron polymaltose = 100mg of elemental iron"},
+
+{"value": "2018-02-15", "text": "Primolut-Nor 5 mg x 1 daily", "comment": "Of PROGESTINS family, norethisterone acetate (abbreviated as NETA), also known as norethindrone acetate and sold under the brand name Primolut-Nor"},
+{"value": "2018-02-16", "text": "Primolut-Nor 10 mg x 1 daily"},
+
+{"value": "2018-08-20", "text": "Buspirone 5 mg x 2 daily START", "comment": "Anxiolytic drug, probably effective in patients with estrogen-driven recurrent fever"},
+{"value": "2018-09-16", "text": "Buspirone 5 mg x 2 daily STOP", "comment": "Anxiolytic drug, probably effective in patients with estrogen-driven recurrent fever"},
+{"value": "2018-09-17", "text": "Buspirone 10 mg x 2 daily START", "comment": "Anxiolytic drug, probably effective in patients with estrogen-driven recurrent fever"},
+{"value": "2018-09-20", "text": "Buspirone 10 mg x 2 daily STOP", "comment": "Anxiolytic drug, probably effective in patients with estrogen-driven recurrent fever"}
+
+
+]

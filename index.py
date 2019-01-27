@@ -24,13 +24,21 @@ dfBTemp = pd.read_json('body_temperature.json')
 # Menstrual cycle start dates
 dfCycle = pd.read_json('menstrual_cycle_start.json')
 # Medicament intake with date and time
-dfMedication = pd.read_json('medication_reports.json')
+dfMedicationStartStop = pd.read_json('medication_start_stop.json')
 # Blood test results
 dfBlood = pd.read_json('blood_test.json')
 # Blood pressure measurements with date and time
 dfBloodPressure = pd.read_json('blood_pressure.json')
 # Misc data about patient's body condition
 dfWellbeing = pd.read_json('wellbeing.json')
+# # Thyroid hormones level Dataframe
+# dfThyroid = pd.read_json('thyroid.json')
+# TSH hormone level Dataframe
+dfTSH = pd.read_json('tsh.json')
+# TgAb antibodies level Dataframe
+dfTgAb = pd.read_json('tgab.json')
+# Levothyroxine hormone intake Dataframe
+dfLevothyroxine = pd.read_json('levothyroxine_start_stop.json')
 
 # Rename columns in DataFrame
 dfBTemp = dfBTemp.rename({'bd-temperature':'bdTemperature', 'dateTaken':'dateTaken'}, axis='columns')
@@ -53,10 +61,10 @@ dfCycle.set_index('value', drop=False, inplace=True)
 
 # Medicament intake Dataframe
 # Convert objects to datetime
-dfMedication.value = pd.to_datetime(dfMedication.value)
+dfMedicationStartStop.value = pd.to_datetime(dfMedicationStartStop.value)
 # Set Dataframe's index
 # We need "drop=False" argument to save original 'dateTaken' column
-dfMedication.set_index('value', drop=False, inplace=True)
+dfMedicationStartStop.set_index('value', drop=False, inplace=True)
 
 # Blood test results Dataframe
 # Convert objects to datetime
@@ -82,6 +90,44 @@ dfWellbeing.dateTimeTaken = pd.to_datetime(dfWellbeing.dateTimeTaken)
 # Set Dataframe's index
 # We need "drop=False" argument to save original 'dateTaken' column
 dfWellbeing.set_index('dateTimeTaken', drop=False, inplace=True)
+
+# # Thyroid hormones level Dataframe
+# # Rename columns in DataFrame
+# dfThyroid = dfThyroid.rename({'dateTimeTaken':'dateTimeTaken'}, axis='columns')
+# # Convert objects to datetime
+# dfThyroid.dateTimeTaken = pd.to_datetime(dfThyroid.dateTimeTaken)
+# # Set Dataframe's index
+# # We need "drop=False" argument to save original 'dateTaken' column
+# dfThyroid.set_index('dateTimeTaken', drop=False, inplace=True)
+
+# TSH hormone level Dataframe
+# Rename columns in DataFrame
+dfTSH = dfTSH.rename({'dateTimeTaken':'dateTimeTaken'}, axis='columns')
+# Convert objects to datetime
+dfTSH.dateTimeTaken = pd.to_datetime(dfTSH.dateTimeTaken)
+# Set Dataframe's index
+# We need "drop=False" argument to save original 'dateTaken' column
+dfTSH.set_index('dateTimeTaken', drop=False, inplace=True)
+
+# TgAb antibodies level Dataframe
+# Rename columns in DataFrame
+dfTgAb = dfTgAb.rename({'dateTimeTaken':'dateTimeTaken'}, axis='columns')
+# Convert objects to datetime
+dfTgAb.dateTimeTaken = pd.to_datetime(dfTgAb.dateTimeTaken)
+# Set Dataframe's index
+# We need "drop=False" argument to save original 'dateTaken' column
+dfTgAb.set_index('dateTimeTaken', drop=False, inplace=True)
+
+# Levothyroxine hormone intake Dataframe
+# Rename columns in DataFrame
+dfLevothyroxine = dfLevothyroxine.rename({'dateTimeTaken':'dateTimeTaken', 'dosage':'value'}, axis='columns')
+# Convert objects to datetime
+dfLevothyroxine.dateTimeTaken = pd.to_datetime(dfLevothyroxine.dateTimeTaken)
+# Set Dataframe's index
+# We need "drop=False" argument to save original 'dateTaken' column
+dfLevothyroxine.set_index('dateTimeTaken', drop=False, inplace=True)
+
+
 
 # Count number of measurements with given temperature value (like 37.1 - 120, 37.2 - 93)
 #https://stackoverflow.com/questions/10373660/converting-a-pandas-groupby-object-to-dataframe
@@ -245,37 +291,43 @@ tempValuesThroughCycle = dfCyclePeriods['tempValuesThroughCycle'].iloc[0]
 # Draw WINDOW
 # Don't forget to append sys.path with "windows" custom package path - sys.path.append("windows")
 from windows import window_temp_line_plots as windTempLPlots
-windTempLPlots.draw(plt, dfBTemp, temperatureByDayMean, temperatureByDayMax, temperatureByDayMin, temperatureMA5, temperatureMA15, temperatureMA100, datetimesNparr, dfMedication, dfCycle)
+windTempLPlots.draw(plt, dfBTemp, temperatureByDayMean, temperatureByDayMax, temperatureByDayMin, temperatureMA5, temperatureMA15, temperatureMA100, datetimesNparr, dfMedicationStartStop, dfCycle)
 
 # Draw WINDOW
 # Don't forget to append sys.path with "windows" custom package path - sys.path.append("windows")
 from windows import window_erythrocytes_line_plots as windTempLPlots
-windTempLPlots.draw(plt, dfBTemp, temperatureByDayMean, temperatureByDayMax, temperatureByDayMin, temperatureMA100, dfMedication, dfCycle, dfBlood)
+windTempLPlots.draw(plt, dfBTemp, temperatureByDayMean, temperatureByDayMax, temperatureByDayMin, temperatureMA100, dfMedicationStartStop, dfCycle, dfBlood)
 
 # Draw WINDOW
 # Don't forget to append sys.path with "windows" custom package path - sys.path.append("windows")
 from windows import window_leukocytes_line_plots as windTempLPlots
-windTempLPlots.draw(plt, dfBTemp, temperatureByDayMean, temperatureByDayMax, temperatureByDayMin, temperatureMA100, dfMedication, dfCycle, dfBlood)
+windTempLPlots.draw(plt, dfBTemp, temperatureByDayMean, temperatureByDayMax, temperatureByDayMin, temperatureMA100, dfMedicationStartStop, dfCycle, dfBlood)
+
+# Draw WINDOW
+# Don't forget to append sys.path with "windows" custom package path - sys.path.append("windows")
+from windows import window_thyroid_line_plots as windThyroidLPlots
+windThyroidLPlots.draw(np, plt, dfBTemp, temperatureByDayMean, temperatureByDayMax, temperatureByDayMin, temperatureMA100, dfMedicationStartStop, dfCycle, dfTSH, dfTgAb, dfLevothyroxine)
+#dfThyroid
 
 # Draw WINDOW
 # Don't forget to append sys.path with "windows" custom package path - sys.path.append("windows")
 from windows import window_pressure_line_plots as windTempLPlots
 windTempLPlots.draw(plt, dfBTemp, temperatureByDayMean, temperatureByDayMax, temperatureByDayMin, temperatureMA100,
-         bloodPressureByDayMean, bloodPressureByDayMax, bloodPressureByDayMin, pressureSystolicMA30,
-         dfMedication, dfCycle, dfBloodPressure)
+                    bloodPressureByDayMean, bloodPressureByDayMax, bloodPressureByDayMin, pressureSystolicMA30,
+                    dfMedicationStartStop, dfCycle, dfBloodPressure)
 
 # Draw WINDOW
 # Don't forget to append sys.path with "windows" custom package path - sys.path.append("windows")
 from windows import window_pressure_line_plots_2 as windTempLPlots2
 windTempLPlots2.draw(plt, dfBTemp, temperatureByDayMean, temperatureByDayMax, temperatureByDayMin, temperatureMA100,
-         bloodPressureByDayMean, bloodPressureByDayMax, bloodPressureByDayMin,
-         pressureSystolicMA30, pressureSystolicMA13d, pressureDiastolicMA30, pressureDiastolicMA13d, pulseMA30, pulseMA13d,
-         dfMedication, dfCycle, dfBloodPressure)
+                     bloodPressureByDayMean, bloodPressureByDayMax, bloodPressureByDayMin,
+                     pressureSystolicMA30, pressureSystolicMA13d, pressureDiastolicMA30, pressureDiastolicMA13d, pulseMA30, pulseMA13d,
+                     dfMedicationStartStop, dfCycle, dfBloodPressure)
 
 # Draw WINDOW
 # Don't forget to append sys.path with "windows" custom package path - sys.path.append("windows")
 from windows import window_wellbeing_line_plots as windWellbeingLPlots
-windWellbeingLPlots.draw(np, plt, dfBTemp, temperatureByDayMean, temperatureByDayMax, temperatureByDayMin, temperatureMA5, temperatureMA15, temperatureMA100, datetimesNparr, dfMedication, dfCycle, dfWellbeing)
+windWellbeingLPlots.draw(np, plt, dfBTemp, temperatureByDayMean, temperatureByDayMax, temperatureByDayMin, temperatureMA5, temperatureMA15, temperatureMA100, datetimesNparr, dfMedicationStartStop, dfCycle, dfWellbeing)
 
 
 # # Draw WINDOW

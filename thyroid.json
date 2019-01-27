@@ -1,0 +1,51 @@
+[
+
+{"dateTimeTaken": "2012-12-05T16:33",
+"freeThyroxine": 1.02,
+"measurementUnit": "ng/dL",
+"measuredIn": "blood",
+"takenFrom":  "vein",
+"organization":  "Діагностична лабораторія ПП Довіра"},
+
+{"dateTimeTaken": "2013-02-09T16:33",
+"freeThyroxine": 0.92,
+"measurementUnit": "ng/dL",
+"measuredIn": "blood",
+"takenFrom":  "vein",
+"organization":  "Діагностична лабораторія ПП Довіра"},
+
+
+
+
+{"dateTimeTaken": "2017-11-09T16:33",
+"freeThyroxine": 1.3,
+"measurementUnit": "ng/dL",
+"measuredIn": "blood",
+"takenFrom":  "vein",
+"organization":  "Діагностична лабораторія ПП Довіра"},
+
+{"dateTimeTaken": "2018-01-09T16:33",
+"freeThyroxine": 0.92,
+"measurementUnit": "ng/dL",
+"measuredIn": "blood",
+"takenFrom":  "vein",
+"organization":  "Діагностична лабораторія ПП Довіра"},
+
+
+{"dateTimeTaken": "2018-11-09T16:33",
+"freeThyroxine": 1.92,
+"measurementUnit": "ng/dL",
+"measuredIn": "blood",
+"takenFrom":  "vein",
+"organization":  "Діагностична лабораторія ПП Довіра"}
+
+
+
+
+
+
+
+
+
+
+]

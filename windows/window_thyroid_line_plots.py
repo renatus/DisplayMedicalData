@@ -1,7 +1,7 @@
 # Function to draw Matplotlib window
-def draw(np, plt, dfBTemp, temperatureByDayMean, temperatureByDayMax, temperatureByDayMin, temperatureMA5, temperatureMA15, temperatureMA100, datetimesNparr, dfMedicationStartStop, dfCycle, dfWellbeing):
+def draw(np, plt, dfBTemp, temperatureByDayMean, temperatureByDayMax, temperatureByDayMin, temperatureMA100, dfMedicationStartStop, dfCycle, dfTSH, dfTgAb, dfLevothyroxine):
     # Open window with a given name
-    plt.figure("Wellbeing Line Plot")
+    plt.figure("Thyroid Line Plot")
     # Create subplots and put them to appropriate places of the program-opened window
     # Arguments in first parentheses are setting grid for sublots; first one - for vertical dimension, second - for horizontal one.
     # Arguments in a second parentheses are setting subplot location within this aformentioned grid.
@@ -11,15 +11,11 @@ def draw(np, plt, dfBTemp, temperatureByDayMean, temperatureByDayMax, temperatur
     # "rowspan" argument sets vertical height of a subplot.
     # "sharex" argument sets subplot current subplot has to share X axis with.
     # In this case, when you'll zoom into one plot, another will be zoomed accordingly.
-    axBTemp = plt.subplot2grid((8, 4), (0, 0), colspan=4, rowspan=2)
-    axBTempDay = plt.subplot2grid((8, 4), (2, 0), colspan=4, rowspan=2, sharex=axBTemp)
-    axMALongTrend = plt.subplot2grid((8, 4), (4, 0), colspan=4, rowspan=1, sharex=axBTemp)
-    axVaginalBleeding = plt.subplot2grid((8, 4), (5, 0), colspan=4, rowspan=1, sharex=axBTemp)
-    axWellbeing = plt.subplot2grid((8, 4), (6, 0), colspan=4, rowspan=1, sharex=axBTemp)
-    axWellbeingMA = plt.subplot2grid((8, 4), (7, 0), colspan=4, rowspan=1, sharex=axBTemp)
-
-    # Plot Temperature line graph
-    axBTemp.plot(dfBTemp['dateTaken'], dfBTemp['bdTemperature'], label='Body Temperature')
+    axBTempDay = plt.subplot2grid((6, 4), (0, 0), colspan=4, rowspan=2)
+    axMALongTrend = plt.subplot2grid((6, 4), (2, 0), colspan=4, rowspan=1, sharex=axBTempDay)
+    axLevothyroxine = plt.subplot2grid((6, 4), (3, 0), colspan=4, rowspan=1, sharex=axBTempDay)
+    axTSH = plt.subplot2grid((6, 4), (4, 0), colspan=4, rowspan=1, sharex=axBTempDay)
+    axTgAb = plt.subplot2grid((6, 4), (5, 0), colspan=4, rowspan=1, sharex=axBTempDay)
 
     # Plot Temperature mean, min and max (per day) line graphs
     axBTempDay.plot(temperatureByDayMean.index, temperatureByDayMean['bdTemperature'], label='MEAN Temperature')
@@ -31,28 +27,14 @@ def draw(np, plt, dfBTemp, temperatureByDayMean, temperatureByDayMax, temperatur
     axMALongTrend.plot(dfBTemp['dateTaken'][len(dfBTemp['dateTaken']) - len(temperatureMA100):], temperatureMA100,
                        label='Temperature Moving Average 100')
 
-    # Plot Vaginal Bleeding intensity line graph
-    axVaginalBleeding.plot(dfWellbeing['dateTimeTaken'], dfWellbeing['vaginalBleeding'], label='Vaginal Bleeding, ml', color='r')
+    # # Plot Levothyroxine intake line graph
+    axLevothyroxine.plot(dfLevothyroxine['dateTimeTaken'], dfLevothyroxine['value'], label='Levothyroxine intake, mcg')
 
-    # Plot Overall Wellbeing and Headache Intensity line graphs
-    axWellbeing.plot(dfWellbeing['dateTimeTaken'], dfWellbeing['perceivedWellBeing'], label='Percieved Wellbeing, higher is better')
-    axWellbeing.plot(dfWellbeing['dateTimeTaken'], dfWellbeing['headacheIntensity'], label='Headache Intensity, lower is better')
+    # Plot TSH concentration line graph
+    axTSH.plot(dfTSH['dateTimeTaken'], dfTSH['value'], label='TSH, mcIU/mL')
 
-    # Plot Overall Wellbeing and Headache Intensity Moving Average line graphs
-
-    # Get Overall Wellbeing Moving Average for 10 measurements (working with Pandas DataFrames and with Pandas-provided tools)
-    perceivedWellBeingMA10 = dfWellbeing['perceivedWellBeing'].rolling(10).mean()
-    # Convert Moving Average Lists to Numpy Arrays, since we need them for fillings with WHERE statement
-    perceivedWellBeingMA10 = np.asarray(perceivedWellBeingMA10)
-    axWellbeingMA.plot(dfWellbeing['dateTimeTaken'], perceivedWellBeingMA10, label='Percieved Wellbeing MA10, higher is better')
-
-    # Get Headache Intensity Moving Average for 10 measurements (working with Pandas DataFrames and with Pandas-provided tools)
-    headacheIntensityMA10 = dfWellbeing['headacheIntensity'].rolling(10).mean()
-    # Convert Moving Average Lists to Numpy Arrays, since we need them for fillings with WHERE statement
-    headacheIntensityMA10 = np.asarray(headacheIntensityMA10)
-    axWellbeingMA.plot(dfWellbeing['dateTimeTaken'], headacheIntensityMA10, label='Headache Intensity MA10, lower is better')
-
-
+    # Plot TgAb concentration line graphs
+    axTgAb.plot(dfTgAb['dateTimeTaken'], dfTgAb['value'], label='TgAb, IU/mL')
 
     # Fills
 
@@ -69,39 +51,36 @@ def draw(np, plt, dfBTemp, temperatureByDayMean, temperatureByDayMax, temperatur
     # Subplot properties
 
     # Add grid to subplots
-    axBTemp.grid(True)
     axBTempDay.grid(True)
     axMALongTrend.grid(True)
-    axVaginalBleeding.grid(True)
-    axWellbeing.grid(True)
-    axWellbeingMA.grid(True)
+    axLevothyroxine.grid(True)
+    axTSH.grid(True)
+    axTgAb.grid(True)
 
     # Set displayable name for subplot
     # May use multiple lines with \n
-    axBTemp.set_title("Overall Wellbeing")
+    axBTempDay.set_title("Thyroid hormones")
 
     # Add legend to subplots
-    axBTemp.legend()
     axBTempDay.legend()
     axMALongTrend.legend()
-    axVaginalBleeding.legend()
-    axWellbeing.legend()
-    axWellbeingMA.legend()
+    axLevothyroxine.legend()
+    axTSH.legend()
+    axTgAb.legend()
 
     # Set X axis label to subplot
     axMALongTrend.set_xlabel(
         'Red filling at MA-5 vs MA-15 plot means rising body temperature, green filling - lowering body temperature')
 
     # Set Y axis label to subplot
-    axBTemp.set_ylabel('Temperature')
     axBTempDay.set_ylabel('DAILY Temperature')
     axMALongTrend.set_ylabel('MA-100')
-    axVaginalBleeding.set_ylabel('Mences')
-    axWellbeing.set_ylabel('Wellbeing')
-    axWellbeingMA.set_ylabel('Wellbeing MA')
+    axLevothyroxine.set_ylabel('Levothyroxine')
+    axTSH.set_ylabel('TSH')
+    axTgAb.set_ylabel('TgAb')
 
     # Rotate X axis labels for subplot
-    plt.setp(axWellbeingMA.get_xticklabels(), rotation=45)
+    plt.setp(axTgAb.get_xticklabels(), rotation=45)
 
     # Add vertical lines to subplot
 
@@ -110,7 +89,6 @@ def draw(np, plt, dfBTemp, temperatureByDayMean, temperatureByDayMax, temperatur
         # Menstrual cycle start datetime
         cycleStartDatetime = row.value
         # Add vertical line to subplot
-        axBTemp.axvline(x=cycleStartDatetime, label="Menstrual cycle START", color="red", alpha=0.6)
         axBTempDay.axvline(x=cycleStartDatetime, label="Menstrual cycle START", color="red", alpha=0.6)
         # Add inscriptions to our vertical lines
         # First argument equals to X value of respective line
@@ -126,7 +104,6 @@ def draw(np, plt, dfBTemp, temperatureByDayMean, temperatureByDayMax, temperatur
         # Medicament intake datetime
         medicationDatetime = row.value
         # Add vertical line to subplot
-        axBTemp.axvline(x=medicationDatetime, label="Medication", color="black", alpha=0.6)
         axBTempDay.axvline(x=medicationDatetime, label="Medication", color="black", alpha=0.1)
         axMALongTrend.axvline(x=medicationDatetime, label="Medication", color="black", alpha=0.1)
         # Add inscriptions to our vertical lines
@@ -135,13 +112,13 @@ def draw(np, plt, dfBTemp, temperatureByDayMean, temperatureByDayMax, temperatur
         # Third argument sets text of inscription
         # rotation=90 will make inscription vertical
         # alpha=0.4 will make inscription semitransparent
-        axBTemp.text(medicationDatetime, 37.3, row.text, fontsize='smaller', rotation=90, verticalalignment='center', color="black",
+        axBTempDay.text(medicationDatetime, 37.3, row.text, fontsize='smaller', rotation=90, verticalalignment='center', color="black",
                      alpha=0.4)
 
     # Remove free space between subplots
     plt.subplots_adjust(hspace=0)
 
     # Modify axes Tick Labels for all subplots, except one at the bottom
-    for ax in [axBTemp, axBTempDay, axMALongTrend, axVaginalBleeding, axWellbeing]:
+    for ax in [axBTempDay, axMALongTrend, axLevothyroxine, axTSH]:
         # Remove X axis Tick Labels (are not visible anyway, if there are no free space between sublots)
         plt.setp(ax.get_xticklabels(), visible=False)
