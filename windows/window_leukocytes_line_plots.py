@@ -46,75 +46,91 @@ def draw(plt, dfBTemp, temperatureByDayMean, temperatureByDayMax, temperatureByD
 
     # axBTempDay subplot
     # Fill space under virtual line @ Y axis  = 36.9 for Body Temperature MIN line graph
+    # Use dfDataframe.index instead of dfDataframe['dateTimeTaken'] for fillings, otherwise there would be an error
     axBTempDay.fill_between(temperatureByDayMin.index, temperatureByDayMin['bdTemperature'], 36.9,
                             where=(36.9 > temperatureByDayMin['bdTemperature']), alpha=0.2, color='green',
                             interpolate=True)
     # Fill space above virtual line @ Y axis  = 37.5 for Body Temperature MAX line graph
+    # Use dfDataframe.index instead of dfDataframe['dateTimeTaken'] for fillings, otherwise there would be an error
     axBTempDay.fill_between(temperatureByDayMax.index, temperatureByDayMax['bdTemperature'], 37.5,
                             where=(37.5 < temperatureByDayMax['bdTemperature']), alpha=0.2, color='orange',
                             interpolate=True)
 
     # axWBC subplot
     # Fill space under virtual line @ Y axis  = 4 up to line graph
+    # Use dfDataframe.index instead of dfDataframe['dateTimeTaken'] for fillings, otherwise there would be an error
     axWBC.fill_between(dfBlood.index, dfBlood['bt-whiteBloodCells-WBC'], 4,
                        where=(4 > dfBlood['bt-whiteBloodCells-WBC']), alpha=0.2, color='red', interpolate=True)
     # Fill space above virtual line @ Y axis  = 9 up to line graph
+    # Use dfDataframe.index instead of dfDataframe['dateTimeTaken'] for fillings, otherwise there would be an error
     axWBC.fill_between(dfBlood.index, dfBlood['bt-whiteBloodCells-WBC'], 9,
                        where=(9 < dfBlood['bt-whiteBloodCells-WBC']), alpha=0.2, color='red', interpolate=True)
 
     # axNeutrophilicBandForms subplot
     # Fill space under virtual line @ Y axis  = 1 up to line graph
+    # Use dfDataframe.index instead of dfDataframe['dateTimeTaken'] for fillings, otherwise there would be an error
     axNeutrophilicBandForms.fill_between(dfBlood.index, dfBlood['bt-neutrophilicBandForms'], 1,
                                          where=(1 > dfBlood['bt-neutrophilicBandForms']), alpha=0.2, color='red',
                                          interpolate=True)
     # Fill space above virtual line @ Y axis  = 6 up to line graph
+    # Use dfDataframe.index instead of dfDataframe['dateTimeTaken'] for fillings, otherwise there would be an error
     axNeutrophilicBandForms.fill_between(dfBlood.index, dfBlood['bt-neutrophilicBandForms'], 6,
                                          where=(6 < dfBlood['bt-neutrophilicBandForms']), alpha=0.2, color='red',
                                          interpolate=True)
 
     # axNeutrophilGranulocytes subplot
     # Fill space under virtual line @ Y axis  = 47 up to line graph
+    # Use dfDataframe.index instead of dfDataframe['dateTimeTaken'] for fillings, otherwise there would be an error
     axNeutrophilGranulocytes.fill_between(dfBlood.index, dfBlood['bt-neutrophilGranulocytes-PMNs'], 47,
                                           where=(47 > dfBlood['bt-neutrophilGranulocytes-PMNs']), alpha=0.2,
                                           color='red', interpolate=True)
     # Fill space above virtual line @ Y axis  = 72 up to line graph
+    # Use dfDataframe.index instead of dfDataframe['dateTimeTaken'] for fillings, otherwise there would be an error
     axNeutrophilGranulocytes.fill_between(dfBlood.index, dfBlood['bt-neutrophilGranulocytes-PMNs'], 72,
                                           where=(72 < dfBlood['bt-neutrophilGranulocytes-PMNs']), alpha=0.2,
                                           color='red', interpolate=True)
 
     # axEosinophilGranulocytes subplot
     # Fill space under virtual line @ Y axis  = 1 up to line graph
+    # Use dfDataframe.index instead of dfDataframe['dateTimeTaken'] for fillings, otherwise there would be an error
     axEosinophilGranulocytes.fill_between(dfBlood.index, dfBlood['bt-eosinophilGranulocytes'], 1,
                                           where=(1 > dfBlood['bt-eosinophilGranulocytes']), alpha=0.2, color='red',
                                           interpolate=True)
     # Fill space above virtual line @ Y axis  = 5 up to line graph
+    # Use dfDataframe.index instead of dfDataframe['dateTimeTaken'] for fillings, otherwise there would be an error
     axEosinophilGranulocytes.fill_between(dfBlood.index, dfBlood['bt-eosinophilGranulocytes'], 5,
                                           where=(5 < dfBlood['bt-eosinophilGranulocytes']), alpha=0.2, color='red',
                                           interpolate=True)
 
     # axBasophilGranulocytes subplot
     # Fill space under virtual line @ Y axis  = 0 up to line graph
+    # Use dfDataframe.index instead of dfDataframe['dateTimeTaken'] for fillings, otherwise there would be an error
     axBasophilGranulocytes.fill_between(dfBlood.index, dfBlood['bt-basophilGranulocytes'], 0,
                                         where=(0 > dfBlood['bt-basophilGranulocytes']), alpha=0.2, color='red',
                                         interpolate=True)
     # Fill space above virtual line @ Y axis  = 1 up to line graph
+    # Use dfDataframe.index instead of dfDataframe['dateTimeTaken'] for fillings, otherwise there would be an error
     axBasophilGranulocytes.fill_between(dfBlood.index, dfBlood['bt-basophilGranulocytes'], 1,
                                         where=(1 < dfBlood['bt-basophilGranulocytes']), alpha=0.2, color='red',
                                         interpolate=True)
 
     # axLymphocytes subplot
     # Fill space under virtual line @ Y axis  = 19 up to line graph
+    # Use dfDataframe.index instead of dfDataframe['dateTimeTaken'] for fillings, otherwise there would be an error
     axLymphocytes.fill_between(dfBlood.index, dfBlood['bt-lymphocytes'], 19, where=(19 > dfBlood['bt-lymphocytes']),
                                alpha=0.2, color='red', interpolate=True)
     # Fill space above virtual line @ Y axis  = 37 up to line graph
+    # Use dfDataframe.index instead of dfDataframe['dateTimeTaken'] for fillings, otherwise there would be an error
     axLymphocytes.fill_between(dfBlood.index, dfBlood['bt-lymphocytes'], 37, where=(37 < dfBlood['bt-lymphocytes']),
                                alpha=0.2, color='red', interpolate=True)
 
     # axMonocytes subplot
     # Fill space under virtual line @ Y axis  = 3 up to line graph
+    # Use dfDataframe.index instead of dfDataframe['dateTimeTaken'] for fillings, otherwise there would be an error
     axMonocytes.fill_between(dfBlood.index, dfBlood['bt-monocytes'], 3, where=(3 > dfBlood['bt-monocytes']), alpha=0.2,
                              color='red', interpolate=True)
     # Fill space above virtual line @ Y axis  = 11 up to line graph
+    # Use dfDataframe.index instead of dfDataframe['dateTimeTaken'] for fillings, otherwise there would be an error
     axMonocytes.fill_between(dfBlood.index, dfBlood['bt-monocytes'], 11, where=(11 < dfBlood['bt-monocytes']),
                              alpha=0.2, color='red', interpolate=True)
 

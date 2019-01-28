@@ -58,10 +58,12 @@ def draw(np, plt, dfBTemp, temperatureByDayMean, temperatureByDayMax, temperatur
 
     # axBTempDay subplot
     # Fill space under virtual line @ Y axis  = 36.9 for Body Temperature MIN line graph
+    # Use dfDataframe.index instead of dfDataframe['dateTimeTaken'] for fillings, otherwise there would be an error
     axBTempDay.fill_between(temperatureByDayMin.index, temperatureByDayMin['bdTemperature'], 36.9,
                             where=(36.9 > temperatureByDayMin['bdTemperature']), alpha=0.2, color='green',
                             interpolate=True)
     # Fill space above virtual line @ Y axis  = 37.5 for Body Temperature MAX line graph
+    # Use dfDataframe.index instead of dfDataframe['dateTimeTaken'] for fillings, otherwise there would be an error
     axBTempDay.fill_between(temperatureByDayMax.index, temperatureByDayMax['bdTemperature'], 37.5,
                             where=(37.5 < temperatureByDayMax['bdTemperature']), alpha=0.2, color='orange',
                             interpolate=True)

@@ -39,6 +39,10 @@ dfTSH = pd.read_json('tsh.json')
 dfTgAb = pd.read_json('tgab.json')
 # Levothyroxine hormone intake Dataframe
 dfLevothyroxine = pd.read_json('levothyroxine_start_stop.json')
+# T3 hormone level Dataframe
+dfT3 = pd.read_json('t3.json')
+# T4 hormone level Dataframe
+dfT4 = pd.read_json('t4.json')
 
 # Rename columns in DataFrame
 dfBTemp = dfBTemp.rename({'bd-temperature':'bdTemperature', 'dateTaken':'dateTaken'}, axis='columns')
@@ -127,6 +131,24 @@ dfLevothyroxine.dateTimeTaken = pd.to_datetime(dfLevothyroxine.dateTimeTaken)
 # We need "drop=False" argument to save original 'dateTaken' column
 dfLevothyroxine.set_index('dateTimeTaken', drop=False, inplace=True)
 
+# T3 hormone level Dataframe
+# Rename columns in DataFrame
+dfT3 = dfT3.rename({'dateTimeTaken':'dateTimeTaken'}, axis='columns')
+# Convert objects to datetime
+dfT3.dateTimeTaken = pd.to_datetime(dfT3.dateTimeTaken)
+# Set Dataframe's index
+# We need "drop=False" argument to save original 'dateTaken' column
+dfT3.set_index('dateTimeTaken', drop=False, inplace=True)
+
+# T4 hormone level Dataframe
+# Rename columns in DataFrame
+dfT4 = dfT4.rename({'dateTimeTaken':'dateTimeTaken'}, axis='columns')
+# Convert objects to datetime
+dfT4.dateTimeTaken = pd.to_datetime(dfT4.dateTimeTaken)
+# Set Dataframe's index
+# We need "drop=False" argument to save original 'dateTaken' column
+dfT4.set_index('dateTimeTaken', drop=False, inplace=True)
+
 
 
 # Count number of measurements with given temperature value (like 37.1 - 120, 37.2 - 93)
@@ -179,7 +201,7 @@ temperatureByDayMax = dfBTemp.groupby([pd.Grouper(freq='D')]).max()
 bloodPressureByDayMean = dfBloodPressure.groupby([pd.Grouper(freq='D')]).mean()
 # pd.Grouper(freq='D') will give you full set of days
 # Even if there were no measurements during particular day, it will be in the dataframe
-# We've to delete such empty days, otherwise only continuos day series will pe displayed by Matplotlib
+# We've to delete such empty days, otherwise only continuous day series will pe displayed by Matplotlib
 # Isolated days will not be shown
 # Iterate through dataframe
 i = 0
@@ -307,7 +329,11 @@ windTempLPlots.draw(plt, dfBTemp, temperatureByDayMean, temperatureByDayMax, tem
 # Don't forget to append sys.path with "windows" custom package path - sys.path.append("windows")
 from windows import window_thyroid_line_plots as windThyroidLPlots
 windThyroidLPlots.draw(np, plt, dfBTemp, temperatureByDayMean, temperatureByDayMax, temperatureByDayMin, temperatureMA100, dfMedicationStartStop, dfCycle, dfTSH, dfTgAb, dfLevothyroxine)
-#dfThyroid
+
+# Draw WINDOW
+# Don't forget to append sys.path with "windows" custom package path - sys.path.append("windows")
+from windows import window_thyroid_line_plots_2 as windThyroidLPlots2
+windThyroidLPlots2.draw(np, plt, dfBTemp, temperatureByDayMean, temperatureByDayMax, temperatureByDayMin, temperatureMA100, dfMedicationStartStop, dfCycle, dfT4, dfT3, dfLevothyroxine)
 
 # Draw WINDOW
 # Don't forget to append sys.path with "windows" custom package path - sys.path.append("windows")
