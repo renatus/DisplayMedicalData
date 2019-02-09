@@ -718,6 +718,24 @@
 "perceivedWellBeing": 2,
 "headacheIntensity": 2,
 "vaginalBleeding": 0,
+"patientComment": ""},
+
+{"dateTimeTaken": "2019-02-06",
+"perceivedWellBeing": 1,
+"headacheIntensity": 2,
+"vaginalBleeding": 0,
+"patientComment": ""},
+
+{"dateTimeTaken": "2019-02-07",
+"perceivedWellBeing": 1,
+"headacheIntensity": 2,
+"vaginalBleeding": 0,
+"patientComment": ""},
+
+{"dateTimeTaken": "2019-02-08",
+"perceivedWellBeing": 1.5,
+"headacheIntensity": 3,
+"vaginalBleeding": 0,
 "patientComment": ""}
 
 
