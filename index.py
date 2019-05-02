@@ -355,6 +355,11 @@ windTempLPlots2.draw(plt, dfBTemp, temperatureByDayMean, temperatureByDayMax, te
 from windows import window_wellbeing_line_plots as windWellbeingLPlots
 windWellbeingLPlots.draw(np, plt, dfBTemp, temperatureByDayMean, temperatureByDayMax, temperatureByDayMin, temperatureMA5, temperatureMA15, temperatureMA100, datetimesNparr, dfMedicationStartStop, dfCycle, dfWellbeing)
 
+# Draw WINDOW
+# Don't forget to append sys.path with "windows" custom package path - sys.path.append("windows")
+from windows import window_wellbeing_line_plots_2 as windWellbeingLPlots2
+windWellbeingLPlots2.draw(np, plt, dfBTemp, temperatureByDayMean, temperatureByDayMax, temperatureByDayMin, temperatureMA5, temperatureMA15, temperatureMA100, datetimesNparr, dfMedicationStartStop, dfCycle, dfWellbeing)
+
 
 # # Draw WINDOW
 # # Don't forget to append sys.path with "windows" custom package path - sys.path.append("windows")
