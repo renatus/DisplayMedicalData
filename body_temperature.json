@@ -2026,7 +2026,13 @@
 {"dateTaken": "2019-05-14T22:48", "bd-temperature": 37.4},
 {"dateTaken": "2019-05-15T09:28", "bd-temperature": 37.4},
 {"dateTaken": "2019-05-15T16:37", "bd-temperature": 37.3},
-{"dateTaken": "2019-05-15T22:32", "bd-temperature": 37.6}
+{"dateTaken": "2019-05-15T22:32", "bd-temperature": 37.6},
+{"dateTaken": "2019-05-16T09:25", "bd-temperature": 37.2},
+{"dateTaken": "2019-05-16T16:40", "bd-temperature": 37.3},
+{"dateTaken": "2019-05-16T22:36", "bd-temperature": 37.6},
+{"dateTaken": "2019-05-17T09:24", "bd-temperature": 37.5},
+{"dateTaken": "2019-05-17T16:35", "bd-temperature": 37.2},
+{"dateTaken": "2019-05-17T22:44", "bd-temperature": 37.5}
 
 
 
