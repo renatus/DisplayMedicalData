@@ -4271,7 +4271,22 @@
 {"dateTimeTaken": "2019-05-22T22:12",
 "bt-pulse_BPM": 73,
 "bt-blood_pressure_max": 98,
-"bt-blood_pressure_min": 59}
+"bt-blood_pressure_min": 59},
+
+{"dateTimeTaken": "2019-05-23T10:17",
+"bt-pulse_BPM": 61,
+"bt-blood_pressure_max": 100,
+"bt-blood_pressure_min": 56},
+{"dateTimeTaken": "2019-05-23T16:23",
+"bt-pulse_BPM": 72,
+"bt-blood_pressure_max": 94,
+"bt-blood_pressure_min": 59},
+{"dateTimeTaken": "2019-05-23TT22:21",
+"bt-pulse_BPM": 75,
+"bt-blood_pressure_max": 96,
+"bt-blood_pressure_min": 56}
+
+
 
 
 
