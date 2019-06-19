@@ -4609,7 +4609,33 @@
 {"dateTimeTaken": "2019-06-17T22:06",
 "bt-pulse_BPM": 65,
 "bt-blood_pressure_max": 92,
-"bt-blood_pressure_min": 54}
+"bt-blood_pressure_min": 54},
+
+{"dateTimeTaken": "2019-06-18T10:04",
+"bt-pulse_BPM": 65,
+"bt-blood_pressure_max": 97,
+"bt-blood_pressure_min": 57},
+{"dateTimeTaken": "2019-06-18T16:09",
+"bt-pulse_BPM": 60,
+"bt-blood_pressure_max": 99,
+"bt-blood_pressure_min": 53},
+{"dateTimeTaken": "2019-06-18T22:07",
+"bt-pulse_BPM": 71,
+"bt-blood_pressure_max": 97,
+"bt-blood_pressure_min": 57},
+
+{"dateTimeTaken": "2019-06-19T10:06",
+"bt-pulse_BPM": 64,
+"bt-blood_pressure_max": 100,
+"bt-blood_pressure_min": 61},
+{"dateTimeTaken": "2019-06-19T16:14",
+"bt-pulse_BPM": 62,
+"bt-blood_pressure_max": 93,
+"bt-blood_pressure_min": 51},
+{"dateTimeTaken": "2019-06-19T22:10",
+"bt-pulse_BPM": 68,
+"bt-blood_pressure_max": 92,
+"bt-blood_pressure_min": 52}
 
 
 
