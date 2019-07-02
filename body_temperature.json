@@ -2168,7 +2168,14 @@
 {"dateTaken": "2019-06-30T00:47", "bd-temperature": 38.0},
 {"dateTaken": "2019-06-30T09:30", "bd-temperature": 37.4},
 {"dateTaken": "2019-06-30T16:42", "bd-temperature": 37.8},
-{"dateTaken": "2019-06-30T22:35", "bd-temperature": 37.7}
+{"dateTaken": "2019-06-30T22:35", "bd-temperature": 37.7},
+{"dateTaken": "2019-07-01T09:31", "bd-temperature": 37.4},
+{"dateTaken": "2019-07-01T16:52", "bd-temperature": 37.6},
+{"dateTaken": "2019-07-01T22:34", "bd-temperature": 37.9},
+{"dateTaken": "2019-07-02T09:27", "bd-temperature": 37.5},
+{"dateTaken": "2019-07-02T16:42", "bd-temperature": 37.5},
+{"dateTaken": "2019-07-02T22:40", "bd-temperature": 37.7}
+
 
 
 
