@@ -1746,6 +1746,34 @@
 "headacheIntensity": 0,
 "xylometazolineUsage": 3,
 "vaginalBleeding": 9,
+"patientComment": ""},
+
+{"dateTimeTaken": "2019-07-11",
+"perceivedWellBeing": 3,
+"headacheIntensity": 2,
+"xylometazolineUsage": 3,
+"vaginalBleeding": 7.5,
+"patientComment": "[Преднизолон] Не принимала, смогла поесть только после обеда. Еще и кровь пошла носом во время утреннего умывания, довольно сильно, и никак не останавливалась. Пришлось воткнуть в ноздрю салфетку для лица, минут 10 держала - к счастью, этого хватило. [Желудочно-кишечного] расстройства не было, аппетит пропал без видимой причины. состояние вялое какое-то уже с утра было, а больше ничего особенного. А потом аппетит сам собой восстановился."},
+
+{"dateTimeTaken": "2019-07-12",
+"perceivedWellBeing": 2.5,
+"headacheIntensity": 3,
+"xylometazolineUsage": 4,
+"vaginalBleeding": 0,
+"patientComment": " состояние вяленой рыбы целый день было - из-за давления, наверное. Вот только после кофе получше стало. Но голова, кстати, всё еще побаливает, не перестала."},
+
+{"dateTimeTaken": "2019-07-13",
+"perceivedWellBeing": 3,
+"headacheIntensity": 2,
+"xylometazolineUsage": 4,
+"vaginalBleeding": 0,
+"patientComment": ""},
+
+{"dateTimeTaken": "2019-07-14",
+"perceivedWellBeing": 3,
+"headacheIntensity": 2,
+"xylometazolineUsage": 4,
+"vaginalBleeding": 0,
 "patientComment": ""}
 
 
