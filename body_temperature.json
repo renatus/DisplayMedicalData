@@ -2237,8 +2237,10 @@
 {"dateTaken": "2019-07-22T22:42", "bd-temperature": 37.8},
 {"dateTaken": "2019-07-23T09:26", "bd-temperature": 37.6},
 {"dateTaken": "2019-07-23T16:39", "bd-temperature": 37.6},
-{"dateTaken": "2019-07-23T22:35", "bd-temperature": 38.0}
-
+{"dateTaken": "2019-07-23T22:35", "bd-temperature": 38.0},
+{"dateTaken": "2019-07-24T09:25", "bd-temperature": 37.6},
+{"dateTaken": "2019-07-24T16:34", "bd-temperature": 37.7},
+{"dateTaken": "2019-07-24T22:47", "bd-temperature": 37.7}
 
 
 
