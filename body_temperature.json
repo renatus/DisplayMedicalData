@@ -2252,7 +2252,19 @@
 {"dateTaken": "2019-07-27T23:00", "bd-temperature": 38.1},
 {"dateTaken": "2019-07-28T09:26", "bd-temperature": 37.6},
 {"dateTaken": "2019-07-28T16:42", "bd-temperature": 38.0},
-{"dateTaken": "2019-07-28T22:45", "bd-temperature": 38.0}
+{"dateTaken": "2019-07-28T22:45", "bd-temperature": 38.0},
+{"dateTaken": "2019-07-29T09:31", "bd-temperature": 37.4},
+{"dateTaken": "2019-07-29T16:39", "bd-temperature": 37.5},
+{"dateTaken": "2019-07-29T22:37", "bd-temperature": 37.9},
+{"dateTaken": "2019-07-30T09:24", "bd-temperature": 37.5},
+{"dateTaken": "2019-07-30T16:38", "bd-temperature": 37.8},
+{"dateTaken": "2019-07-30T22:35", "bd-temperature": 37.9},
+{"dateTaken": "2019-07-31T09:27", "bd-temperature": 37.5},
+{"dateTaken": "2019-07-31T16:46", "bd-temperature": 37.5},
+{"dateTaken": "2019-07-31T22:43", "bd-temperature": 37.8},
+{"dateTaken": "2019-08-01T09:31", "bd-temperature": 37.4},
+{"dateTaken": "2019-08-01T16:39", "bd-temperature": 37.4},
+{"dateTaken": "2019-08-01T22:36", "bd-temperature": 37.8}
 
 
 
