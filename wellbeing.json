@@ -1900,7 +1900,30 @@
 "headacheIntensity": 2,
 "xylometazolineUsage": 3,
 "vaginalBleeding": 0,
-"patientComment": ""}
+"patientComment": ""},
+
+{"dateTimeTaken": "2019-08-02",
+"perceivedWellBeing": 3,
+"headacheIntensity": 2,
+"xylometazolineUsage": 3,
+"vaginalBleeding": 5,
+"patientComment": ""},
+
+{"dateTimeTaken": "2019-08-03",
+"perceivedWellBeing": 3.5,
+"headacheIntensity": 2,
+"xylometazolineUsage": 4,
+"vaginalBleeding": 41,
+"patientComment": ""},
+
+{"dateTimeTaken": "2019-08-04",
+"perceivedWellBeing": 4,
+"headacheIntensity": 2,
+"xylometazolineUsage": 3,
+"vaginalBleeding": 30,
+"patientComment": "[Хорошо было] еще благодаря выпитому в середине дня кофейному напитку, т. к. состояние в какой-то момент стало ухудшаться из-за давления"}
+
+
 
 
 
