@@ -232,6 +232,15 @@
 "measuredIn": "blood",
 "takenFrom":  "vein",
 "organization":  "Synevo medical laboratory",
+"url": "https://spravochnik.synevo.ua/ru/thyrioidnaia/thyroglobulin-antitela.html"},
+
+{"dateTimeTaken": "2019-08-05",
+"id": "TgAb",
+"value": 10.11,
+"measurementUnit": "IU/mL",
+"measuredIn": "blood",
+"takenFrom":  "vein",
+"organization":  "Synevo medical laboratory",
 "url": "https://spravochnik.synevo.ua/ru/thyrioidnaia/thyroglobulin-antitela.html"}
 
 ]

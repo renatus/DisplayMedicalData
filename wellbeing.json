@@ -1921,7 +1921,16 @@
 "headacheIntensity": 2,
 "xylometazolineUsage": 3,
 "vaginalBleeding": 30,
-"patientComment": "[Хорошо было] еще благодаря выпитому в середине дня кофейному напитку, т. к. состояние в какой-то момент стало ухудшаться из-за давления"}
+"patientComment": "[Хорошо было] еще благодаря выпитому в середине дня кофейному напитку, т. к. состояние в какой-то момент стало ухудшаться из-за давления"},
+
+{"dateTimeTaken": "2019-08-05",
+"perceivedWellBeing": 3,
+"headacheIntensity": 2.5,
+"xylometazolineUsage": 3,
+"vaginalBleeding": 7,
+"patientComment": ""}
+
+
 
 
 
