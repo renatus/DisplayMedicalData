@@ -5372,7 +5372,46 @@
 {"dateTimeTaken": "2019-08-15T22:06",
 "bt-pulse_BPM": 69,
 "bt-blood_pressure_max": 94,
-"bt-blood_pressure_min": 53}
+"bt-blood_pressure_min": 53},
+
+{"dateTimeTaken": "2019-08-16T10:06",
+"bt-pulse_BPM": 69,
+"bt-blood_pressure_max": 99,
+"bt-blood_pressure_min": 60},
+{"dateTimeTaken": "2019-08-16T16:10",
+"bt-pulse_BPM": 62,
+"bt-blood_pressure_max": 92,
+"bt-blood_pressure_min": 51},
+{"dateTimeTaken": "2019-08-16T22:13",
+"bt-pulse_BPM": 68,
+"bt-blood_pressure_max": 101,
+"bt-blood_pressure_min": 54},
+
+{"dateTimeTaken": "2019-08-17T10:09",
+"bt-pulse_BPM": 62,
+"bt-blood_pressure_max": 98,
+"bt-blood_pressure_min": 58},
+{"dateTimeTaken": "2019-08-17T16:13",
+"bt-pulse_BPM": 71,
+"bt-blood_pressure_max": 96,
+"bt-blood_pressure_min": 52},
+{"dateTimeTaken": "2019-08-17T22:11",
+"bt-pulse_BPM": 78,
+"bt-blood_pressure_max": 93,
+"bt-blood_pressure_min": 55},
+
+{"dateTimeTaken": "2019-08-18T10:12",
+"bt-pulse_BPM": 68,
+"bt-blood_pressure_max": 96,
+"bt-blood_pressure_min": 57},
+{"dateTimeTaken": "2019-08-18T16:08",
+"bt-pulse_BPM": 66,
+"bt-blood_pressure_max": 97,
+"bt-blood_pressure_min": 52},
+{"dateTimeTaken": "2019-08-18T22:09",
+"bt-pulse_BPM": 75,
+"bt-blood_pressure_max": 99,
+"bt-blood_pressure_min": 62}
 
 
 
