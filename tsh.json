@@ -241,6 +241,15 @@
 "measuredIn": "blood",
 "takenFrom":  "vein",
 "organization":  "Synevo medical laboratory",
+"url": "https://spravochnik.synevo.ua/ru/thyrioidnaia/thyreotropniy.html"},
+
+{"dateTimeTaken": "2019-09-04",
+"id": "TSH",
+"value": 0.701,
+"measurementUnit": "mcIU/mL",
+"measuredIn": "blood",
+"takenFrom":  "vein",
+"organization":  "Synevo medical laboratory",
 "url": "https://spravochnik.synevo.ua/ru/thyrioidnaia/thyreotropniy.html"}
 
 
