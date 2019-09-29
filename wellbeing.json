@@ -2306,7 +2306,16 @@
 "headacheIntensity": 2,
 "xylometazolineUsage": 3,
 "vaginalBleeding": 0,
+"patientComment": ""},
+
+{"dateTimeTaken": "2019-09-29",
+"perceivedWellBeing": 3,
+"headacheIntensity": 2.5,
+"xylometazolineUsage": 3,
+"vaginalBleeding": 0,
 "patientComment": ""}
+
+
 
 
 
