@@ -2444,7 +2444,10 @@
 {"dateTaken": "2019-09-29T22:42", "bd-temperature": 37.6},
 {"dateTaken": "2019-09-30T09:23", "bd-temperature": 37.3},
 {"dateTaken": "2019-09-30T16:45", "bd-temperature": 37.0},
-{"dateTaken": "2019-09-30T22:40", "bd-temperature": 37.6}
+{"dateTaken": "2019-09-30T22:40", "bd-temperature": 37.6},
+{"dateTaken": "2019-10-01T09:32", "bd-temperature": 37.5},
+{"dateTaken": "2019-10-01T16:36", "bd-temperature": 37.5},
+{"dateTaken": "2019-10-01T22:49", "bd-temperature": 37.7}
 
 
 
