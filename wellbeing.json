@@ -2740,7 +2740,25 @@
 "headacheIntensity": 2,
 "xylometazolineUsage": 4,
 "vaginalBleeding": 0,
-"patientComment": "Когда давление было выше [чем сейчас], сонливость не так была выражена, даже при недосыпании."}
+"patientComment": "Когда давление было выше [т.е. в середине ноября], сонливость не так была выражена, даже при недосыпании."},
+
+{"dateTimeTaken": "2019-11-30",
+"perceivedWellBeing": 2.5,
+"headacheIntensity": 2,
+"xylometazolineUsage": 4,
+"vaginalBleeding": 0,
+"patientComment": "Простуда полностью прошла."},
+
+{"dateTimeTaken": "2019-12-01",
+"perceivedWellBeing": 3,
+"headacheIntensity": 2,
+"xylometazolineUsage": 5,
+"vaginalBleeding": 0,
+"patientComment": ""}
+
+
+
+
 
 
 
