@@ -2873,7 +2873,21 @@
 "headacheIntensity": 0,
 "xylometazolineUsage": 4,
 "vaginalBleeding": 0,
-"patientComment": ""}
+"patientComment": ""},
+
+{"dateTimeTaken": "2019-12-19",
+"perceivedWellBeing": 2.5,
+"headacheIntensity": 0,
+"xylometazolineUsage": 4,
+"vaginalBleeding": 19,
+"patientComment": ""},
+
+{"dateTimeTaken": "2019-12-20",
+"perceivedWellBeing": 2.5,
+"headacheIntensity": 2,
+"xylometazolineUsage": 5,
+"vaginalBleeding": 30,
+"patientComment": "Признаков простуды нет, кроме редкого чихания. Месячные протекают обычно."}
 
 
 
