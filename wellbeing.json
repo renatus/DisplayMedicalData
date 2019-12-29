@@ -2901,6 +2901,48 @@
 "headacheIntensity": 2.5,
 "xylometazolineUsage": 4,
 "vaginalBleeding": 8.5,
+"patientComment": ""},
+
+{"dateTimeTaken": "2019-12-23",
+"perceivedWellBeing": 3,
+"headacheIntensity": 2,
+"xylometazolineUsage": 5,
+"vaginalBleeding": 3,
+"patientComment": ""},
+
+{"dateTimeTaken": "2019-12-24",
+"perceivedWellBeing": 3,
+"headacheIntensity": 2,
+"xylometazolineUsage": 5,
+"vaginalBleeding": 2,
+"patientComment": ""},
+
+{"dateTimeTaken": "2019-12-25",
+"perceivedWellBeing": 3.5,
+"headacheIntensity": 2,
+"xylometazolineUsage": 5,
+"vaginalBleeding": 0,
+"patientComment": ""},
+
+{"dateTimeTaken": "2019-12-26",
+"perceivedWellBeing": 3,
+"headacheIntensity": 2,
+"xylometazolineUsage": 4,
+"vaginalBleeding": 0,
+"patientComment": ""},
+
+{"dateTimeTaken": "2019-12-27",
+"perceivedWellBeing": 4,
+"headacheIntensity": 2,
+"xylometazolineUsage": 4,
+"vaginalBleeding": 0,
+"patientComment": "[Последние] месячные самые обычные, боли также как всегда."},
+
+{"dateTimeTaken": "2019-12-28",
+"perceivedWellBeing": 3,
+"headacheIntensity": 2.5,
+"xylometazolineUsage": 4,
+"vaginalBleeding": 0,
 "patientComment": ""}
 
 
