@@ -2985,7 +2985,111 @@
 "headacheIntensity": 2,
 "xylometazolineUsage": 4,
 "vaginalBleeding": 0,
+"patientComment": ""},
+
+{"dateTimeTaken": "2020-01-04",
+"perceivedWellBeing": 2,
+"headacheIntensity": 2,
+"xylometazolineUsage": 4,
+"vaginalBleeding": 0,
+"patientComment": ""},
+
+{"dateTimeTaken": "2020-01-05",
+"perceivedWellBeing": 2,
+"headacheIntensity": 0,
+"xylometazolineUsage": 4,
+"vaginalBleeding": 0,
+"patientComment": ""},
+
+{"dateTimeTaken": "2020-01-06",
+"perceivedWellBeing": 2.5,
+"headacheIntensity": 0,
+"xylometazolineUsage": 4,
+"vaginalBleeding": 0,
+"patientComment": ""},
+
+{"dateTimeTaken": "2020-01-07",
+"perceivedWellBeing": 2,
+"headacheIntensity": 2,
+"xylometazolineUsage": 4,
+"vaginalBleeding": 0,
+"patientComment": ""},
+
+{"dateTimeTaken": "2020-01-08",
+"perceivedWellBeing": 2,
+"headacheIntensity": 2,
+"xylometazolineUsage": 3,
+"vaginalBleeding": 0,
+"patientComment": ""},
+
+{"dateTimeTaken": "2020-01-09",
+"perceivedWellBeing": 1.5,
+"headacheIntensity": 3,
+"xylometazolineUsage": 4,
+"vaginalBleeding": 0,
+"patientComment": "Сильная ломота в теле и жуткая слабость; меня вырубило уже после полудня, и я не вставала до 16.00, хотя и спать толком не смогла. Не удалось и позаниматься, хотя с утра встала в состоянии вполне сносном"},
+
+{"dateTimeTaken": "2020-01-10",
+"perceivedWellBeing": 2.5,
+"headacheIntensity": 2,
+"xylometazolineUsage": 4,
+"vaginalBleeding": 0,
+"patientComment": ""},
+
+{"dateTimeTaken": "2020-01-11",
+"perceivedWellBeing": 2,
+"headacheIntensity": 2,
+"xylometazolineUsage": 3,
+"vaginalBleeding": 0,
+"patientComment": "Утром чаще всего состояние получше, т. к. и температура ниже - соответственно, симптомы, характерные при более высокой (жар, ломота), слабее выражены либо отсутствуют. Во второй половине дня более ощутимыми становятся головная боль и слабость. Головная боль ранее бывала ущественно хуже."},
+
+{"dateTimeTaken": "2020-01-12",
+"perceivedWellBeing": 2.5,
+"headacheIntensity": 2,
+"xylometazolineUsage": 4,
+"vaginalBleeding": 3.5,
+"patientComment": "Месячные начались в 15.00."},
+
+{"dateTimeTaken": "2020-01-13",
+"perceivedWellBeing": 3,
+"headacheIntensity": 0,
+"xylometazolineUsage": 4,
+"vaginalBleeding": 31,
+"patientComment": ""},
+
+{"dateTimeTaken": "2020-01-14",
+"perceivedWellBeing": 2.5,
+"headacheIntensity": 3,
+"xylometazolineUsage": 4,
+"vaginalBleeding": 32,
+"patientComment": "Связанные с месячными боли в этот раз слабее обычного."},
+
+{"dateTimeTaken": "2020-01-15",
+"perceivedWellBeing": 2.5,
+"headacheIntensity": 2,
+"xylometazolineUsage": 4,
+"vaginalBleeding": 7,
+"patientComment": ""},
+
+{"dateTimeTaken": "2020-01-16",
+"perceivedWellBeing": 3,
+"headacheIntensity": 0,
+"xylometazolineUsage": 3,
+"vaginalBleeding": 5,
+"patientComment": ""},
+
+{"dateTimeTaken": "2020-01-17",
+"perceivedWellBeing": 3.5,
+"headacheIntensity": 2,
+"xylometazolineUsage": 4,
+"vaginalBleeding": 0,
 "patientComment": ""}
+
+
+
+
+
+
 
 
 
