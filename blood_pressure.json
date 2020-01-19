@@ -7353,7 +7353,20 @@
 {"dateTimeTaken": "2020-01-17T22:08",
 "bt-pulse_BPM": 76,
 "bt-blood_pressure_max": 102,
-"bt-blood_pressure_min": 58}
+"bt-blood_pressure_min": 58},
+
+{"dateTimeTaken": "2020-01-18T10:07",
+"bt-pulse_BPM": 73,
+"bt-blood_pressure_max": 100,
+"bt-blood_pressure_min": 60},
+{"dateTimeTaken": "2020-01-18T16:02",
+"bt-pulse_BPM": 73,
+"bt-blood_pressure_max": 109,
+"bt-blood_pressure_min": 68},
+{"dateTimeTaken": "2020-01-18T22:06",
+"bt-pulse_BPM": 72,
+"bt-blood_pressure_max": 116,
+"bt-blood_pressure_min": 68}
 
 
 
