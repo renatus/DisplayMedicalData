@@ -946,7 +946,7 @@
 "perceivedWellBeing": 3,
 "headacheIntensity": 3,
 "vaginalBleeding": 0,
-"patientComment": ""},
+"patientComment": "На втором измерении появился индикатор аритмии, при этом я лежала как обычно, не двигалась. Заметила впервые."},
 
 {"dateTimeTaken": "2019-03-16",
 "perceivedWellBeing": 2.5,
@@ -3279,7 +3279,93 @@
 "headacheIntensity": 2,
 "xylometazolineUsage": 4,
 "vaginalBleeding": 35,
+"patientComment": ""},
+
+{"dateTimeTaken": "2020-02-15",
+"perceivedWellBeing": 2.5,
+"headacheIntensity": 3,
+"xylometazolineUsage": 5,
+"vaginalBleeding": 22,
+"patientComment": ""},
+
+{"dateTimeTaken": "2020-02-16",
+"perceivedWellBeing": 2.5,
+"headacheIntensity": 2,
+"xylometazolineUsage": 4,
+"vaginalBleeding": 6.5,
+"patientComment": ""},
+
+{"dateTimeTaken": "2020-02-17",
+"perceivedWellBeing": 3.5,
+"headacheIntensity": 2,
+"xylometazolineUsage": 4,
+"vaginalBleeding": 2,
+"patientComment": ""},
+
+{"dateTimeTaken": "2020-02-18",
+"perceivedWellBeing": 3,
+"headacheIntensity": 2,
+"xylometazolineUsage": 4,
+"vaginalBleeding": 0,
+"patientComment": ""},
+
+{"dateTimeTaken": "2020-02-19",
+"perceivedWellBeing": 3,
+"headacheIntensity": 2,
+"xylometazolineUsage": 5,
+"vaginalBleeding": 0,
+"patientComment": ""},
+
+{"dateTimeTaken": "2020-02-20",
+"perceivedWellBeing": 3.5,
+"headacheIntensity": 2,
+"xylometazolineUsage": 5,
+"vaginalBleeding": 0,
+"patientComment": "Сработал индикатор аритмии при утреннем измерении давления и пульса. Не могу быть уверена в том, что индикатор с прошлого марта не срабатывал, но, во всяком случае, я не замечала. Есть болевые спазмы в грудной клетке (ребрах) с левой стороны, по симптомам похоже на межреберную невралгию. Но для меня это явление не необычно, в течение жизни возникало время от времени; необычно лишь то, что в последние месяцы бывает часто, хотя особого беспокойства не доставляет, т. к. проходит быстро. В детстве, впрочем, не припомню, но в подростковом возрасте уже случалось. Думаю, что именно спазмы, поскольку боль усиливается, например, при вдохе. Длится обычно примерно до 10-15 секунд, дольше исключительно редко. Наибольшую продолжительность приступа не могу назвать даже примерно, т. к. не помню каждый случай, тем более что на фоне прочего они для меня не являлись чем-то значимым. В июле 2017-го вроде бы не было такого - думаю, что запомнила бы. Выносливость, как и прежде, зависит от состояния. При сносном самочувствии заметной негативной динамики выносливости не наблюдаю. Насчет воды - я делаю контрастный душ, но именно холодную не включаю, поэтому нет, ничего такого тоже не замечала.  Ощущение дискомфорта, когда сводит ногу, при разной интенсивности может различаться, и с учетом этого - да, вполне можно сравнивать. У мамы однажды такой спазм длился около получаса; у себя столь длинных вроде не припомню, но иногда они могут повторяться неоднократно в течение дня. У мамы это был буквально единичный случай. Приступы по симптомам похожи на межреберную невралгию - склоняюсь к тому, что она и есть. У меня продолжительных болей после спазма и в ногах никогда не было."},
+
+{"dateTimeTaken": "2020-02-21",
+"perceivedWellBeing": 3.5,
+"headacheIntensity": 2,
+"xylometazolineUsage": 4,
+"vaginalBleeding": 0,
+"patientComment": ""},
+
+{"dateTimeTaken": "2020-02-22",
+"perceivedWellBeing": 3,
+"headacheIntensity": 2,
+"xylometazolineUsage": 4,
+"vaginalBleeding": 0,
+"patientComment": ""},
+
+{"dateTimeTaken": "2020-02-23",
+"perceivedWellBeing": 3.5,
+"headacheIntensity": 0,
+"xylometazolineUsage": 4,
+"vaginalBleeding": 0,
+"patientComment": ""},
+
+{"dateTimeTaken": "2020-02-24",
+"perceivedWellBeing": 2.5,
+"headacheIntensity": 2,
+"xylometazolineUsage": 5,
+"vaginalBleeding": 0,
+"patientComment": ""},
+
+{"dateTimeTaken": "2020-02-25",
+"perceivedWellBeing": 2.5,
+"headacheIntensity": 2,
+"xylometazolineUsage": 4,
+"vaginalBleeding": 0,
+"patientComment": ""},
+
+{"dateTimeTaken": "2020-02-26",
+"perceivedWellBeing": 2.5,
+"headacheIntensity": 2,
+"xylometazolineUsage": 5,
+"vaginalBleeding": 0,
 "patientComment": ""}
+
+
 
 
 
