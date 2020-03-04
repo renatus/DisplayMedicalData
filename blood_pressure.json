@@ -7939,7 +7939,20 @@
 {"dateTimeTaken": "2020-03-02T22:20",
 "bt-pulse_BPM": 68,
 "bt-blood_pressure_max": 111,
-"bt-blood_pressure_min": 66}
+"bt-blood_pressure_min": 66},
+
+{"dateTimeTaken": "2020-03-03T10:11",
+"bt-pulse_BPM": 68,
+"bt-blood_pressure_max": 101,
+"bt-blood_pressure_min": 61},
+{"dateTimeTaken": "2020-03-03T16:07",
+"bt-pulse_BPM": 68,
+"bt-blood_pressure_max": 105,
+"bt-blood_pressure_min": 63},
+{"dateTimeTaken": "2020-03-03T22:08",
+"bt-pulse_BPM": 69,
+"bt-blood_pressure_max": 111,
+"bt-blood_pressure_min": 67}
 
 
 
