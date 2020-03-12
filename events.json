@@ -4,9 +4,34 @@
 "durationSec": "604800",
 "eventType": ["respiratory tract infection"],
 "comment": "Acute respiratory infection",
+"patientComment": ""},
+
+
+
+
+{"dateTimeStart": "2020-03-07T17:51:00",
+"durationSec": "16",
+"eventType": ["pain", "intercostal pain"],
+"comment": "G58.0 - Intercostal neuropathy? Болевые спазмы в ребрах с левой стороны, случались и раньше. Боль усиливается при вдохе. Длится до 10-15 секунд, дольше редко.",
+"patientComment": ""},
+
+{"dateTimeStart": "2020-03-08T23:52:00",
+"durationSec": "9",
+"eventType": ["pain", "intercostal pain"],
+"comment": "G58.0 - Intercostal neuropathy? Болевые спазмы в ребрах с левой стороны, случались и раньше. Боль усиливается при вдохе. Длится до 10-15 секунд, дольше редко.",
+"patientComment": ""},
+
+{"dateTimeStart": "2020-03-11T17:42:00",
+"durationSec": "3",
+"eventType": ["pain", "intercostal pain"],
+"comment": "G58.0 - Intercostal neuropathy? Болевые спазмы в ребрах с левой стороны, случались и раньше. Боль усиливается при вдохе. Длится до 10-15 секунд, дольше редко.",
+"patientComment": ""},
+
+{"dateTimeStart": "2020-03-11T18:06:00",
+"durationSec": "10",
+"eventType": ["pain", "intercostal pain"],
+"comment": "G58.0 - Intercostal neuropathy? Болевые спазмы в ребрах с левой стороны, случались и раньше. Боль усиливается при вдохе. Длится до 10-15 секунд, дольше редко.",
 "patientComment": ""}
-
-
 
 
 

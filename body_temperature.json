@@ -3007,7 +3007,29 @@
 {"dateTaken": "2020-03-03T22:41", "bd-temperature": 38.0},
 {"dateTaken": "2020-03-04T09:33", "bd-temperature": 37.6},
 {"dateTaken": "2020-03-04T16:38", "bd-temperature": 37.6},
-{"dateTaken": "2020-03-04T22:34", "bd-temperature": 38.0}
+{"dateTaken": "2020-03-04T22:34", "bd-temperature": 38.0},
+{"dateTaken": "2020-03-05T09:25", "bd-temperature": 37.6},
+{"dateTaken": "2020-03-05T16:37", "bd-temperature": 37.8},
+{"dateTaken": "2020-03-05T22:40", "bd-temperature": 38.0},
+{"dateTaken": "2020-03-06T09:26", "bd-temperature": 37.3},
+{"dateTaken": "2020-03-06T16:33", "bd-temperature": 37.8},
+{"dateTaken": "2020-03-06T22:57", "bd-temperature": 37.9},
+{"dateTaken": "2020-03-07T09:30", "bd-temperature": 37.4},
+{"dateTaken": "2020-03-07T16:34", "bd-temperature": 37.8},
+{"dateTaken": "2020-03-07T22:41", "bd-temperature": 37.6},
+{"dateTaken": "2020-03-08T09:23", "bd-temperature": 37.3},
+{"dateTaken": "2020-03-08T16:38", "bd-temperature": 37.5},
+{"dateTaken": "2020-03-08T23:04", "bd-temperature": 37.6},
+{"dateTaken": "2020-03-09T09:26", "bd-temperature": 37.6},
+{"dateTaken": "2020-03-09T16:39", "bd-temperature": 37.5},
+{"dateTaken": "2020-03-09T22:32", "bd-temperature": 37.4},
+{"dateTaken": "2020-03-10T09:29", "bd-temperature": 37.2},
+{"dateTaken": "2020-03-10T16:32", "bd-temperature": 37.2},
+{"dateTaken": "2020-03-10T22:35", "bd-temperature": 37.4},
+{"dateTaken": "2020-03-11T09:27", "bd-temperature": 37.3},
+{"dateTaken": "2020-03-11T16:42", "bd-temperature": 37.0},
+{"dateTaken": "2020-03-11T22:39", "bd-temperature": 37.6}
+
 
 
 
