@@ -1,8 +1,11 @@
+# In Ubuntu 18.04, install
+# sudo apt-get install python3-distutils
+
 # Import packages
 # Package for data analysis
 import pandas as pd
-#To fix ImportError: No module named '_tkinter' during matplotlib import use
-#sudo apt-get install python3-tk
+# To fix ImportError: No module named '_tkinter' during matplotlib import use
+# sudo apt-get install python3-tk
 # For graph plotting
 import matplotlib.pyplot as plt
 # For plotting functionality like advanced fills with "where" argument
