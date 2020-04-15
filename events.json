@@ -14,6 +14,12 @@
 "comment": "",
 "patientComment": ""},
 
+{"dateTimeStart": "2020-04-06T10:53:00",
+"durationSec": "540",
+"eventType": ["bleeding", "nosebleed"],
+"comment": "",
+"patientComment": ""},
+
 
 
 {"dateTimeStart": "2020-03-07T17:51:00",

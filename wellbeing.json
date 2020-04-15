@@ -3622,6 +3622,62 @@
 "headacheIntensity": 2,
 "xylometazolineUsage": 4,
 "vaginalBleeding": 0,
+"patientComment": ""},
+
+{"dateTimeTaken": "2020-04-04",
+"perceivedWellBeing": 1.5,
+"headacheIntensity": 2,
+"xylometazolineUsage": 5,
+"vaginalBleeding": 0,
+"patientComment": ""},
+
+{"dateTimeTaken": "2020-04-05",
+"perceivedWellBeing": 1.5,
+"headacheIntensity": 2,
+"xylometazolineUsage": 4,
+"vaginalBleeding": 0,
+"patientComment": ""},
+
+{"dateTimeTaken": "2020-04-06",
+"perceivedWellBeing": 1.5,
+"headacheIntensity": 2.5,
+"xylometazolineUsage": 4,
+"vaginalBleeding": 0,
+"patientComment": ""},
+
+{"dateTimeTaken": "2020-04-07",
+"perceivedWellBeing": 2,
+"headacheIntensity": 2.5,
+"xylometazolineUsage": 4,
+"vaginalBleeding": 19,
+"patientComment": ""},
+
+{"dateTimeTaken": "2020-04-08",
+"perceivedWellBeing": 2,
+"headacheIntensity": 2.5,
+"xylometazolineUsage": 4,
+"vaginalBleeding": 20,
+"patientComment": ""},
+
+{"dateTimeTaken": "2020-04-09",
+"perceivedWellBeing": 2,
+"headacheIntensity": 2,
+"xylometazolineUsage": 4,
+"vaginalBleeding": 9,
+"patientComment": ""},
+
+{"dateTimeTaken": "2020-04-10",
+"perceivedWellBeing": 2.5,
+"headacheIntensity": 3,
+"xylometazolineUsage": 5,
+"vaginalBleeding": 5.5,
+"patientComment": ""},
+
+{"dateTimeTaken": "2020-04-11",
+"perceivedWellBeing": 2.5,
+"headacheIntensity": 2,
+"xylometazolineUsage": 4,
+"vaginalBleeding": 4,
 "patientComment": ""}
 
 
