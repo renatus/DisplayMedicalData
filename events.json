@@ -20,6 +20,14 @@
 "comment": "",
 "patientComment": ""},
 
+{"dateTimeStart": "2020-04-12T11:01:00",
+"durationSec": "240",
+"eventType": ["bleeding", "nosebleed"],
+"comment": "",
+"patientComment": ""},
+
+
+
 
 
 {"dateTimeStart": "2020-03-07T17:51:00",
@@ -68,7 +76,15 @@
 "durationSec": "6",
 "eventType": ["pain", "intercostal pain"],
 "comment": "G58.0 - Intercostal neuropathy? Болевые спазмы в ребрах с левой стороны, случались и раньше. Боль усиливается при вдохе. Длится до 10-15 секунд, дольше редко.",
+"patientComment": ""},
+
+{"dateTimeStart": "2020-04-17T12:26:00",
+"durationSec": "3",
+"eventType": ["pain", "intercostal pain"],
+"comment": "G58.0 - Intercostal neuropathy? Болевые спазмы в ребрах с левой стороны, случались и раньше. Боль усиливается при вдохе. Длится до 10-15 секунд, дольше редко.",
 "patientComment": ""}
+
+
 
 
 
