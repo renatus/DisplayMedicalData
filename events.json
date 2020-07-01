@@ -44,7 +44,29 @@
 "comment": "",
 "patientComment": ""},
 
+{"dateTimeStart": "2020-06-19T10:26:00",
+"durationSec": "60",
+"eventType": ["bleeding", "nosebleed"],
+"comment": "",
+"patientComment": ""},
 
+{"dateTimeStart": "2020-06-19T20:44:00",
+"durationSec": "1",
+"eventType": ["bleeding", "nosebleed"],
+"comment": "",
+"patientComment": "Кровь слегка сочилась, для остановки хватило одного промакивания салфеткой"},
+
+{"dateTimeStart": "2020-06-20T10:22:00",
+"durationSec": "30",
+"eventType": ["bleeding", "nosebleed"],
+"comment": "",
+"patientComment": ""},
+
+{"dateTimeStart": "2020-06-20T11:49:00",
+"durationSec": "1",
+"eventType": ["bleeding", "nosebleed"],
+"comment": "",
+"patientComment": "Кровь слегка сочилась, для остановки хватило одного промакивания салфеткой"},
 
 
 
