@@ -9599,12 +9599,20 @@
 {"dateTimeTaken": "2020-07-08T22:17",
 "bt-pulse_BPM": 66,
 "bt-blood_pressure_max": 108,
-"bt-blood_pressure_min": 57}
+"bt-blood_pressure_min": 57},
 
-
-
-
-
+{"dateTimeTaken": "2020-07-09T10:06",
+"bt-pulse_BPM": 72,
+"bt-blood_pressure_max": 102,
+"bt-blood_pressure_min": 58},
+{"dateTimeTaken": "2020-07-09T16:12",
+"bt-pulse_BPM": 65,
+"bt-blood_pressure_max": 103,
+"bt-blood_pressure_min": 59},
+{"dateTimeTaken": "2020-07-09T22:04",
+"bt-pulse_BPM": 65,
+"bt-blood_pressure_max": 102,
+"bt-blood_pressure_min": 62}
 
 
 
