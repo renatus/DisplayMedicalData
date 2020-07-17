@@ -4329,7 +4329,22 @@
 "headacheIntensity": 4,
 "xylometazolineUsage": 4,
 "vaginalBleeding": 0,
+"patientComment": "Самочувствие ухудшилось уже к полудню. Возможно, это влияние недосыпа в последние дни, который я не компенсировала, либо перемены погоды в тот день. Ощущаю существенный упадок сил."},
+
+{"dateTimeTaken": "2020-07-14",
+"perceivedWellBeing": 2.5,
+"headacheIntensity": 2,
+"xylometazolineUsage": 5,
+"vaginalBleeding": 0,
+"patientComment": ""},
+
+{"dateTimeTaken": "2020-07-15",
+"perceivedWellBeing": 2.5,
+"headacheIntensity": 2,
+"xylometazolineUsage": 4,
+"vaginalBleeding": 0,
 "patientComment": ""}
+
 
 
 
