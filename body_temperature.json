@@ -3425,7 +3425,13 @@
 {"dateTaken": "2020-07-20T22:49", "bd-temperature": 37.9},
 {"dateTaken": "2020-07-21T09:25", "bd-temperature": 37.5},
 {"dateTaken": "2020-07-21T16:48", "bd-temperature": 37.5},
-{"dateTaken": "2020-07-21T23:13", "bd-temperature": 38.1}
+{"dateTaken": "2020-07-21T23:13", "bd-temperature": 38.1},
+{"dateTaken": "2020-07-22T09:29", "bd-temperature": 37.6},
+{"dateTaken": "2020-07-22T16:39", "bd-temperature": 37.6},
+{"dateTaken": "2020-07-22T22:42", "bd-temperature": 38.2},
+{"dateTaken": "2020-07-23T09:25", "bd-temperature": 37.6},
+{"dateTaken": "2020-07-23T16:42", "bd-temperature": 37.7},
+{"dateTaken": "2020-07-23T22:34", "bd-temperature": 38.1}
 
 
 

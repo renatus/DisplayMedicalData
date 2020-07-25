@@ -16,7 +16,9 @@
 {"value": "2018-03-17", "text": "Maltofer 100 mg x 1 daily START", "comment": "IRON supplement, 357mg of iron polymaltose = 100mg of elemental iron"},
 {"value": "2018-08-19", "text": "Maltofer 100 mg x 1 daily STOP", "comment": "IRON supplement, 357mg of iron polymaltose = 100mg of elemental iron"},
 {"value": "2020-01-20", "text": "Maltofer 100 mg x once in two days START", "comment": "IRON supplement, 357mg of iron polymaltose = 100mg of elemental iron"},
+{"value": "2020-03-18", "text": "Maltofer 100 mg x once in two days STOP", "comment": "IRON supplement, 357mg of iron polymaltose = 100mg of elemental iron"},
 {"value": "2020-05-27", "text": "Maltofer 100 mg x once in two days START", "comment": "IRON supplement, 357mg of iron polymaltose = 100mg of elemental iron"},
+{"value": "2020-07-24", "text": "Maltofer 100 mg x once in two days STOP", "comment": "IRON supplement, 357mg of iron polymaltose = 100mg of elemental iron"},
 
 {"value": "2018-02-15", "text": "Primolut-Nor 5 mg x 1 daily", "comment": "Of PROGESTINS family, norethisterone acetate (abbreviated as NETA), also known as norethindrone acetate and sold under the brand name Primolut-Nor"},
 {"value": "2018-02-16", "text": "Primolut-Nor 10 mg x 1 daily"},
@@ -477,6 +479,8 @@
 {"value": "2020-07-19T10:44", "text": "Prednisolone Oral 7.5mg", "comment": "Steroid medication used to treat certain types of allergies, inflammatory conditions, autoimmune disorders, and cancers"},
 {"value": "2020-07-20T10:48", "text": "Prednisolone Oral 7.5mg", "comment": "Steroid medication used to treat certain types of allergies, inflammatory conditions, autoimmune disorders, and cancers"},
 {"value": "2020-07-21T10:47", "text": "Prednisolone Oral 7.5mg", "comment": "Steroid medication used to treat certain types of allergies, inflammatory conditions, autoimmune disorders, and cancers"},
+{"value": "2020-07-22T10:44", "text": "Prednisolone Oral 7.5mg", "comment": "Steroid medication used to treat certain types of allergies, inflammatory conditions, autoimmune disorders, and cancers"},
+{"value": "2020-07-23T10:38", "text": "Prednisolone Oral 7.5mg", "comment": "Steroid medication used to treat certain types of allergies, inflammatory conditions, autoimmune disorders, and cancers"},
 
 
 
@@ -496,6 +500,8 @@
 {"value": "2020-07-18T16:58", "text": "Singlon Oral 8mg", "comment": "Montelukast, by Gedeon Richter, Hungary. Leukotriene receptor antagonist, used to prevent asthma or allergies"},
 {"value": "2020-07-19T16:41", "text": "Singlon Oral 8mg", "comment": "Montelukast, by Gedeon Richter, Hungary. Leukotriene receptor antagonist, used to prevent asthma or allergies"},
 {"value": "2020-07-20T16:23", "text": "Singlon Oral 8mg", "comment": "Montelukast, by Gedeon Richter, Hungary. Leukotriene receptor antagonist, used to prevent asthma or allergies"},
-{"value": "2020-07-21T16:39", "text": "Singlon Oral 8mg", "comment": "Montelukast, by Gedeon Richter, Hungary. Leukotriene receptor antagonist, used to prevent asthma or allergies"}
+{"value": "2020-07-21T16:39", "text": "Singlon Oral 8mg", "comment": "Montelukast, by Gedeon Richter, Hungary. Leukotriene receptor antagonist, used to prevent asthma or allergies"},
+{"value": "2020-07-22T16:40", "text": "Montel Oral 10 mg", "comment": "Montelukast, by Borshchahivskiy CPP, Ukraine. Leukotriene receptor antagonist, used to prevent asthma or allergies"},
+{"value": "2020-07-23T16:41", "text": "Montel Oral 10 mg", "comment": "Montelukast, by Borshchahivskiy CPP, Ukraine. Leukotriene receptor antagonist, used to prevent asthma or allergies"}
 
 ]
