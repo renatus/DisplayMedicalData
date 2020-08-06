@@ -3452,7 +3452,22 @@
 {"dateTaken": "2020-07-29T22:48", "bd-temperature": 38.0},
 {"dateTaken": "2020-07-30T09:26", "bd-temperature": 37.5},
 {"dateTaken": "2020-07-30T16:43", "bd-temperature": 37.7},
-{"dateTaken": "2020-07-30T23:14", "bd-temperature": 37.7}
+{"dateTaken": "2020-07-30T23:14", "bd-temperature": 37.7},
+{"dateTaken": "2020-07-31T09:23", "bd-temperature": 37.6},
+{"dateTaken": "2020-07-31T16:30", "bd-temperature": 37.4},
+{"dateTaken": "2020-07-31T23:35", "bd-temperature": 37.9},
+{"dateTaken": "2020-08-01T09:29", "bd-temperature": 37.3},
+{"dateTaken": "2020-08-01T16:37", "bd-temperature": 37.5},
+{"dateTaken": "2020-08-01T22:44", "bd-temperature": 37.6},
+{"dateTaken": "2020-08-02T09:30", "bd-temperature": 37.4},
+{"dateTaken": "2020-08-02T16:31", "bd-temperature": 37.5},
+{"dateTaken": "2020-08-02T22:47", "bd-temperature": 37.6},
+{"dateTaken": "2020-08-03T09:29", "bd-temperature": 37.5},
+{"dateTaken": "2020-08-03T16:43", "bd-temperature": 37.4},
+{"dateTaken": "2020-08-03T22:32", "bd-temperature": 37.7},
+{"dateTaken": "2020-08-04T09:28", "bd-temperature": 37.5},
+{"dateTaken": "2020-08-04T16:38", "bd-temperature": 37.4},
+{"dateTaken": "2020-08-04T22:51", "bd-temperature": 37.7}
 
 
 
