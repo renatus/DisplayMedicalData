@@ -3467,7 +3467,10 @@
 {"dateTaken": "2020-08-03T22:32", "bd-temperature": 37.7},
 {"dateTaken": "2020-08-04T09:28", "bd-temperature": 37.5},
 {"dateTaken": "2020-08-04T16:38", "bd-temperature": 37.4},
-{"dateTaken": "2020-08-04T22:51", "bd-temperature": 37.7}
+{"dateTaken": "2020-08-04T22:51", "bd-temperature": 37.7},
+{"dateTaken": "2020-08-05T09:29", "bd-temperature": 37.4},
+{"dateTaken": "2020-08-05T16:42", "bd-temperature": 37.8},
+{"dateTaken": "2020-08-05T23:05", "bd-temperature": 37.9}
 
 
 
