@@ -4532,6 +4532,34 @@
 "headacheIntensity": 2,
 "xylometazolineUsage": 6,
 "vaginalBleeding": 0,
+"patientComment": ""},
+
+{"dateTimeTaken": "2020-08-12",
+"perceivedWellBeing": 2,
+"headacheIntensity": 3,
+"xylometazolineUsage": 5,
+"vaginalBleeding": 0,
+"patientComment": ""},
+
+{"dateTimeTaken": "2020-08-13",
+"perceivedWellBeing": 2,
+"headacheIntensity": 2,
+"xylometazolineUsage": 4,
+"vaginalBleeding": 0,
+"patientComment": ""},
+
+{"dateTimeTaken": "2020-08-14",
+"perceivedWellBeing": 2,
+"headacheIntensity": 2.5,
+"xylometazolineUsage": 4,
+"vaginalBleeding": 0,
+"patientComment": ""},
+
+{"dateTimeTaken": "2020-08-15",
+"perceivedWellBeing": 2,
+"headacheIntensity": 2.5,
+"xylometazolineUsage": 5,
+"vaginalBleeding": 0,
 "patientComment": ""}
 
 
