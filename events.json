@@ -80,6 +80,18 @@
 "comment": "",
 "patientComment": ""},
 
+{"dateTimeStart": "2020-08-20T20:40:00",
+"durationSec": "1",
+"eventType": ["bleeding", "nosebleed"],
+"comment": "",
+"patientComment": "Продолжительность не фиксировала"},
+
+{"dateTimeStart": "2020-08-21T01:07:00",
+"durationSec": "300",
+"eventType": ["bleeding", "nosebleed"],
+"comment": "",
+"patientComment": ""},
+
 
 
 

@@ -4581,7 +4581,28 @@
 "headacheIntensity": 0,
 "xylometazolineUsage": 5,
 "vaginalBleeding": 0,
-"patientComment": ""}
+"patientComment": ""},
+
+{"dateTimeTaken": "2020-08-19",
+"perceivedWellBeing": 2,
+"headacheIntensity": 2,
+"xylometazolineUsage": 4,
+"vaginalBleeding": 0,
+"patientComment": ""},
+
+{"dateTimeTaken": "2020-08-20",
+"perceivedWellBeing": 1.5,
+"headacheIntensity": 0,
+"xylometazolineUsage": 5,
+"vaginalBleeding": 0,
+"patientComment": ""},
+
+{"dateTimeTaken": "2020-08-21",
+"perceivedWellBeing": 1.5,
+"headacheIntensity": 2,
+"xylometazolineUsage": 5,
+"vaginalBleeding": 0,
+"patientComment": "Самочувствие сейчас примерно такое же, как обычно на пике."}
 
 
 
