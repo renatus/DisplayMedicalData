@@ -4602,7 +4602,38 @@
 "headacheIntensity": 2,
 "xylometazolineUsage": 5,
 "vaginalBleeding": 0,
-"patientComment": "Самочувствие сейчас примерно такое же, как обычно на пике."}
+"patientComment": "Самочувствие сейчас примерно такое же, как обычно на пике."},
+
+{"dateTimeTaken": "2020-08-22",
+"perceivedWellBeing": 1,
+"headacheIntensity": 2.5,
+"xylometazolineUsage": 4,
+"vaginalBleeding": 0,
+"patientComment": ""},
+
+{"dateTimeTaken": "2020-08-23",
+"perceivedWellBeing": 1.5,
+"headacheIntensity": 2.5,
+"xylometazolineUsage": 4,
+"vaginalBleeding": 0,
+"patientComment": "Изменений в самочувствии после приема Парацетамола не ощущала никаких. Головная боль несколько уменьшилась к полуночи, но не думаю, что из-за таблеток. Вечерне-ночные измерения не всегда могут быть показательными, т. к. в некоторых случаях температура начинала снижаться после полуночи."},
+
+{"dateTimeTaken": "2020-08-24",
+"perceivedWellBeing": 1.5,
+"headacheIntensity": 2,
+"xylometazolineUsage": 4,
+"vaginalBleeding": 0,
+"patientComment": "Выраженного эффекта от Парацетамола по-прежнему не ощутила; к моменту приема таблеток головной боли и так почти не было."},
+
+{"dateTimeTaken": "2020-08-25",
+"perceivedWellBeing": 1.5,
+"headacheIntensity": 2.5,
+"xylometazolineUsage": 4,
+"vaginalBleeding": 0,
+"patientComment": ""}
+
+
+
 
 
 
