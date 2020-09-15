@@ -92,6 +92,30 @@
 "comment": "",
 "patientComment": ""},
 
+{"dateTimeStart": "2020-08-27T13:21:00",
+"durationSec": "360",
+"eventType": ["bleeding", "nosebleed"],
+"comment": "",
+"patientComment": ""},
+
+{"dateTimeStart": "2020-08-28T10:20:00",
+"durationSec": "60",
+"eventType": ["bleeding", "nosebleed"],
+"comment": "",
+"patientComment": ""},
+
+{"dateTimeStart": "2020-09-01T10:51:00",
+"durationSec": "60",
+"eventType": ["bleeding", "nosebleed"],
+"comment": "",
+"patientComment": ""},
+
+{"dateTimeStart": "2020-09-03T22:37:00",
+"durationSec": "180",
+"eventType": ["bleeding", "nosebleed"],
+"comment": "",
+"patientComment": ""},
+
 
 
 
