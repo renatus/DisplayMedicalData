@@ -4805,6 +4805,20 @@
 "headacheIntensity": 0,
 "xylometazolineUsage": 4,
 "vaginalBleeding": 0,
+"patientComment": "Никаких особенностей самочувствия не наблюдалось."},
+
+{"dateTimeTaken": "2020-09-20",
+"perceivedWellBeing": 1,
+"headacheIntensity": 2,
+"xylometazolineUsage": 4,
+"vaginalBleeding": 0,
+"patientComment": ""},
+
+{"dateTimeTaken": "2020-09-21",
+"perceivedWellBeing": 1,
+"headacheIntensity": 2.5,
+"xylometazolineUsage": 5,
+"vaginalBleeding": 0,
 "patientComment": ""}
 
 

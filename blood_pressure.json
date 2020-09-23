@@ -10548,8 +10548,20 @@
 {"dateTimeTaken": "2020-09-19T22:09",
 "bt-pulse_BPM": 66,
 "bt-blood_pressure_max": 113,
-"bt-blood_pressure_min": 66}
+"bt-blood_pressure_min": 66},
 
+{"dateTimeTaken": "2020-09-20T10:06",
+"bt-pulse_BPM": 65,
+"bt-blood_pressure_max": 100,
+"bt-blood_pressure_min": 61},
+{"dateTimeTaken": "2020-09-20T16:07",
+"bt-pulse_BPM": 73,
+"bt-blood_pressure_max": 95,
+"bt-blood_pressure_min": 61},
+{"dateTimeTaken": "2020-09-20T22:12",
+"bt-pulse_BPM": 73,
+"bt-blood_pressure_max": 108,
+"bt-blood_pressure_min": 69}
 
 
 
