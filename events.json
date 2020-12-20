@@ -152,6 +152,20 @@
 "comment": "",
 "patientComment": ""},
 
+{"dateTimeStart": "2020-11-17T01:23:00",
+"durationSec": "150",
+"eventType": ["bleeding", "nosebleed"],
+"comment": "",
+"patientComment": ""},
+
+{"dateTimeStart": "2020-11-26T11:08:00",
+"durationSec": "480",
+"eventType": ["bleeding", "nosebleed"],
+"comment": "",
+"patientComment": ""},
+
+
+
 
 
 
