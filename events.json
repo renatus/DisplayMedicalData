@@ -170,7 +170,17 @@
 "comment": "",
 "patientComment": ""},
 
+{"dateTimeStart": "2021-01-01T11:39:00",
+"durationSec": "90",
+"eventType": ["bleeding", "nosebleed"],
+"comment": "",
+"patientComment": ""},
 
+{"dateTimeStart": "2021-01-30T13:48:00",
+"durationSec": "600",
+"eventType": ["bleeding", "nosebleed"],
+"comment": "",
+"patientComment": ""},
 
 
 

@@ -5463,56 +5463,341 @@
 "headacheIntensity": 0,
 "xylometazolineUsage": 5,
 "vaginalBleeding": 17,
+"patientComment": ""},
+
+{"dateTimeTaken": "2020-12-23",
+"perceivedWellBeing": 2,
+"headacheIntensity": 2,
+"xylometazolineUsage": 5,
+"vaginalBleeding": 8.5,
+"patientComment": ""},
+
+{"dateTimeTaken": "2020-12-24",
+"perceivedWellBeing": 2,
+"headacheIntensity": 0,
+"xylometazolineUsage": 5,
+"vaginalBleeding": 4,
+"patientComment": ""},
+
+{"dateTimeTaken": "2020-12-25",
+"perceivedWellBeing": 2.5,
+"headacheIntensity": 2,
+"xylometazolineUsage": 5,
+"vaginalBleeding": 5,
+"patientComment": "Практически не возникает ощущения жара или озноба именно в связи с температурой, даже при значениях 38 и выше. Зато ломота стала существенно сильнее ощущаться и при более низкой температуре (однако не усилившись при более высокой), чем раньше, поэтому на минимумах я чувствую себя хуже. Примерно за последние пару недель более выраженной в целом стала также общая слабость и вялость."},
+
+{"dateTimeTaken": "2020-12-26",
+"perceivedWellBeing": 1.5,
+"headacheIntensity": 3,
+"xylometazolineUsage": 6,
+"vaginalBleeding": 0,
+"patientComment": ""},
+
+{"dateTimeTaken": "2020-12-27",
+"perceivedWellBeing": 2,
+"headacheIntensity": 2,
+"xylometazolineUsage": 5,
+"vaginalBleeding": 0,
+"patientComment": ""},
+
+{"dateTimeTaken": "2020-12-28",
+"perceivedWellBeing": 3,
+"headacheIntensity": 0,
+"xylometazolineUsage": 5,
+"vaginalBleeding": 0,
+"patientComment": ""},
+
+{"dateTimeTaken": "2020-12-29",
+"perceivedWellBeing": 2,
+"headacheIntensity": 3,
+"xylometazolineUsage": 5,
+"vaginalBleeding": 0,
+"patientComment": ""},
+
+{"dateTimeTaken": "2020-12-30",
+"perceivedWellBeing": 2,
+"headacheIntensity": 2.5,
+"xylometazolineUsage": 5,
+"vaginalBleeding": 0,
+"patientComment": ""},
+
+{"dateTimeTaken": "2020-12-31",
+"perceivedWellBeing": 2,
+"headacheIntensity": 3,
+"xylometazolineUsage": 5,
+"vaginalBleeding": 0,
+"patientComment": ""},
+
+{"dateTimeTaken": "2021-01-01",
+"perceivedWellBeing": 2.5,
+"headacheIntensity": 0,
+"xylometazolineUsage": 5,
+"vaginalBleeding": 0,
+"patientComment": ""},
+
+{"dateTimeTaken": "2021-01-02",
+"perceivedWellBeing": 2,
+"headacheIntensity": 0,
+"xylometazolineUsage": 5,
+"vaginalBleeding": 0,
+"patientComment": ""},
+
+{"dateTimeTaken": "2021-01-03",
+"perceivedWellBeing": 2,
+"headacheIntensity": 2,
+"xylometazolineUsage": 5,
+"vaginalBleeding": 0,
+"patientComment": ""},
+
+{"dateTimeTaken": "2021-01-04",
+"perceivedWellBeing": 2,
+"headacheIntensity": 2,
+"xylometazolineUsage": 5,
+"vaginalBleeding": 0,
+"patientComment": ""},
+
+{"dateTimeTaken": "2021-01-05",
+"perceivedWellBeing": 1.5,
+"headacheIntensity": 3,
+"xylometazolineUsage": 5,
+"vaginalBleeding": 0,
+"patientComment": ""},
+
+{"dateTimeTaken": "2021-01-06",
+"perceivedWellBeing": 2,
+"headacheIntensity": 0,
+"xylometazolineUsage": 5,
+"vaginalBleeding": 0,
+"patientComment": ""},
+
+{"dateTimeTaken": "2021-01-07",
+"perceivedWellBeing": 1.5,
+"headacheIntensity": 2,
+"xylometazolineUsage": 5,
+"vaginalBleeding": 0,
+"patientComment": "Очень плохое самочувствие с утра; слабость, ощущение общего помутнения; возможно, влияние погоды"},
+
+{"dateTimeTaken": "2021-01-08",
+"perceivedWellBeing": 2,
+"headacheIntensity": 2,
+"xylometazolineUsage": 5,
+"vaginalBleeding": 0,
+"patientComment": ""},
+
+{"dateTimeTaken": "2021-01-09",
+"perceivedWellBeing": 2.5,
+"headacheIntensity": 0,
+"xylometazolineUsage": 5,
+"vaginalBleeding": 0,
+"patientComment": ""},
+
+{"dateTimeTaken": "2021-01-10",
+"perceivedWellBeing": 2,
+"headacheIntensity": 0,
+"xylometazolineUsage": 5,
+"vaginalBleeding": 0,
+"patientComment": ""},
+
+{"dateTimeTaken": "2021-01-11",
+"perceivedWellBeing": 2,
+"headacheIntensity": 0,
+"xylometazolineUsage": 5,
+"vaginalBleeding": 0,
+"patientComment": ""},
+
+{"dateTimeTaken": "2021-01-12",
+"perceivedWellBeing": 1.5,
+"headacheIntensity": 0,
+"xylometazolineUsage": 5,
+"vaginalBleeding": 0,
+"patientComment": "Вес, набранный в позапрошлом году, за последние несколько месяцев таки постепенно ушел."},
+
+{"dateTimeTaken": "2021-01-13",
+"perceivedWellBeing": 2,
+"headacheIntensity": 0,
+"xylometazolineUsage": 5,
+"vaginalBleeding": 0,
+"patientComment": ""},
+
+{"dateTimeTaken": "2021-01-14",
+"perceivedWellBeing": 1.5,
+"headacheIntensity": 2,
+"xylometazolineUsage": 5,
+"vaginalBleeding": 0,
+"patientComment": ""},
+
+{"dateTimeTaken": "2021-01-15",
+"perceivedWellBeing": 2,
+"headacheIntensity": 0,
+"xylometazolineUsage": 6,
+"vaginalBleeding": 0,
+"patientComment": ""},
+
+{"dateTimeTaken": "2021-01-16",
+"perceivedWellBeing": 2.5,
+"headacheIntensity": 0,
+"xylometazolineUsage": 5,
+"vaginalBleeding": 16,
+"patientComment": ""},
+
+{"dateTimeTaken": "2021-01-17",
+"perceivedWellBeing": 2.5,
+"headacheIntensity": 2,
+"xylometazolineUsage": 5,
+"vaginalBleeding": 41,
+"patientComment": ""},
+
+{"dateTimeTaken": "2021-01-18",
+"perceivedWellBeing": 2,
+"headacheIntensity": 2,
+"xylometazolineUsage": 5,
+"vaginalBleeding": 39.5,
+"patientComment": ""},
+
+{"dateTimeTaken": "2021-01-19",
+"perceivedWellBeing": 2.5,
+"headacheIntensity": 0,
+"xylometazolineUsage": 5,
+"vaginalBleeding": 7,
+"patientComment": ""},
+
+{"dateTimeTaken": "2021-01-20",
+"perceivedWellBeing": 2,
+"headacheIntensity": 2.5,
+"xylometazolineUsage": 5,
+"vaginalBleeding": 7.5,
+"patientComment": ""},
+
+{"dateTimeTaken": "2021-01-21",
+"perceivedWellBeing": 3,
+"headacheIntensity": 0,
+"xylometazolineUsage": 5,
+"vaginalBleeding": 0,
+"patientComment": ""},
+
+{"dateTimeTaken": "2021-01-22",
+"perceivedWellBeing": 2,
+"headacheIntensity": 2,
+"xylometazolineUsage": 5,
+"vaginalBleeding": 0,
+"patientComment": ""},
+
+{"dateTimeTaken": "2021-01-23",
+"perceivedWellBeing": 2,
+"headacheIntensity": 0,
+"xylometazolineUsage": 5,
+"vaginalBleeding": 0,
+"patientComment": ""},
+
+{"dateTimeTaken": "2021-01-24",
+"perceivedWellBeing": 1.5,
+"headacheIntensity": 3,
+"xylometazolineUsage": 5,
+"vaginalBleeding": 0,
+"patientComment": "Ломота в теле и слабость существенно более выражены, чем обычно."},
+
+{"dateTimeTaken": "2021-01-25",
+"perceivedWellBeing": 2,
+"headacheIntensity": 2.5,
+"xylometazolineUsage": 5,
+"vaginalBleeding": 0,
+"patientComment": "Ломота в теле и слабость опять существенно более выражены, чем обычно."},
+
+{"dateTimeTaken": "2021-01-26",
+"perceivedWellBeing": 1.5,
+"headacheIntensity": 2,
+"xylometazolineUsage": 5,
+"vaginalBleeding": 0,
+"patientComment": "Овуляция? После полуночи, около 00:30 начала усиливаться ломота и появился озноб. Кроме резко повысившеся температуры больше симптомов нет. Спать легла в 4 утра, когда температура начала спадать, уснула быстро и не просыпалась, пока не прозвенел будильник. Скачок по ощущениям аналогичен прошлому, но в тот раз самочувствие было несколько хуже - очень трудно даже пройтись по комнате."},
+
+{"dateTimeTaken": "2021-01-27",
+"perceivedWellBeing": 2,
+"headacheIntensity": 0,
+"xylometazolineUsage": 5,
+"vaginalBleeding": 0,
+"patientComment": ""},
+
+{"dateTimeTaken": "2021-01-28",
+"perceivedWellBeing": 2,
+"headacheIntensity": 0,
+"xylometazolineUsage": 5,
+"vaginalBleeding": 0,
+"patientComment": ""},
+
+{"dateTimeTaken": "2021-01-29",
+"perceivedWellBeing": 1.5,
+"headacheIntensity": 3,
+"xylometazolineUsage": 5,
+"vaginalBleeding": 0,
+"patientComment": ""},
+
+{"dateTimeTaken": "2021-01-30",
+"perceivedWellBeing": 1.5,
+"headacheIntensity": 3,
+"xylometazolineUsage": 6,
+"vaginalBleeding": 0,
+"patientComment": ""},
+
+{"dateTimeTaken": "2021-01-31",
+"perceivedWellBeing": 1.5,
+"headacheIntensity": 2,
+"xylometazolineUsage": 5,
+"vaginalBleeding": 0,
+"patientComment": ""},
+
+{"dateTimeTaken": "2021-02-01",
+"perceivedWellBeing": 2,
+"headacheIntensity": 0,
+"xylometazolineUsage": 5,
+"vaginalBleeding": 0,
+"patientComment": ""},
+
+{"dateTimeTaken": "2021-02-02",
+"perceivedWellBeing": 2,
+"headacheIntensity": 0,
+"xylometazolineUsage": 5,
+"vaginalBleeding": 0,
+"patientComment": ""},
+
+{"dateTimeTaken": "2021-02-03",
+"perceivedWellBeing": 1,
+"headacheIntensity": 2,
+"xylometazolineUsage": 5,
+"vaginalBleeding": 0,
+"patientComment": ""},
+
+{"dateTimeTaken": "2021-02-04",
+"perceivedWellBeing": 2,
+"headacheIntensity": 0,
+"xylometazolineUsage": 5,
+"vaginalBleeding": 0,
+"patientComment": ""},
+
+{"dateTimeTaken": "2021-02-05",
+"perceivedWellBeing": 1.5,
+"headacheIntensity": 3,
+"xylometazolineUsage": 5,
+"vaginalBleeding": 0,
+"patientComment": ""},
+
+{"dateTimeTaken": "2021-02-06",
+"perceivedWellBeing": 2.5,
+"headacheIntensity": 0,
+"xylometazolineUsage": 6,
+"vaginalBleeding": 0,
+"patientComment": ""},
+
+{"dateTimeTaken": "2021-02-07",
+"perceivedWellBeing": 2,
+"headacheIntensity": 2,
+"xylometazolineUsage": 5,
+"vaginalBleeding": 0,
+"patientComment": ""},
+
+{"dateTimeTaken": "2021-02-08",
+"perceivedWellBeing": 2,
+"headacheIntensity": 0,
+"xylometazolineUsage": 6,
+"vaginalBleeding": 20,
 "patientComment": ""}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ]
