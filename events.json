@@ -182,6 +182,24 @@
 "comment": "",
 "patientComment": ""},
 
+{"dateTimeStart": "2021-02-22T11:17:00",
+"durationSec": "60",
+"eventType": ["bleeding", "nosebleed"],
+"comment": "",
+"patientComment": ""},
+
+{"dateTimeStart": "2021-02-23T13:49:00",
+"durationSec": "1",
+"eventType": ["bleeding", "nosebleed"],
+"comment": "",
+"patientComment": ""},
+
+{"dateTimeStart": "2021-03-02T21:27:00",
+"durationSec": "60",
+"eventType": ["bleeding", "nosebleed"],
+"comment": "",
+"patientComment": ""},
+
 
 
 
