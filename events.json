@@ -200,6 +200,24 @@
 "comment": "",
 "patientComment": ""},
 
+{"dateTimeStart": "2021-04-06T10:55:00",
+"durationSec": "420",
+"eventType": ["bleeding", "nosebleed"],
+"comment": "",
+"patientComment": ""},
+
+{"dateTimeStart": "2021-04-07T12:52:00",
+"durationSec": "180",
+"eventType": ["bleeding", "nosebleed"],
+"comment": "",
+"patientComment": ""},
+
+{"dateTimeStart": "2021-04-13T13:46:00",
+"durationSec": "60",
+"eventType": ["bleeding", "nosebleed"],
+"comment": "",
+"patientComment": ""},
+
 
 
 
