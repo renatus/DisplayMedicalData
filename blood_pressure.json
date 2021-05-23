@@ -13489,6 +13489,10 @@
 "bt-blood_pressure_max": 104,
 "bt-blood_pressure_min": 66},
 
+{"dateTimeTaken": "2021-05-02T10:11",
+"bt-pulse_BPM": 60,
+"bt-blood_pressure_max": 97,
+"bt-blood_pressure_min": 57},
 {"dateTimeTaken": "2021-05-02T16:08",
 "bt-pulse_BPM": 60,
 "bt-blood_pressure_max": 106,
@@ -13587,7 +13591,7 @@
 {"dateTimeTaken": "2021-05-09T22:01",
 "bt-pulse_BPM": 69,
 "bt-blood_pressure_max": 109,
-"bt-blood_pressure_min": 677},
+"bt-blood_pressure_min": 67},
 
 {"dateTimeTaken": "2021-05-10T10:07",
 "bt-pulse_BPM": 62,
